@@ -251,6 +251,12 @@ src: url('font/MavenPro-Regular.ttf') format('truetype');
 .card{
 	border-color:transparent;}
 
+.cornice1{ background-image: url("images/cornice.jpg");
+height: 150px;
+width:100;}
+
+.cornice {background-image: url("images/cornice.jpg");
+background-size: cover;}
 
 
 
@@ -294,5 +300,5 @@ src: url('font/MavenPro-Regular.ttf') format('truetype');
 }
 
 	
-	
+
 
