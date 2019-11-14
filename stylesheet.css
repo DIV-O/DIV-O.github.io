@@ -13,16 +13,9 @@ src: url('font/Beauty.ttf') format('truetype');
 }
 
 @font-face 
-{font-family: geo;
-src: url('font/Geo.ttf') format('truetype');
+{font-family: maven;
+src: url('font/MavenPro-Regular.ttf') format('truetype');
 }
-
-@font-face 
-{font-family: champagne;
-src: url('font/Champagne.ttf') format('truetype');
-}
-
-
  
  
  
