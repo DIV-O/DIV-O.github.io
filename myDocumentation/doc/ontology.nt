@@ -1,0 +1,239 @@
+<http://divo.github.io/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://divo.github.io/> <http://purl.org/dc/terms/description> "UOMO (User Oriented social Media Ontology) Profile is an ontology for describing the information about Social Media focusing on the User's Profile."@en .
+<http://divo.github.io/> <http://purl.org/dc/terms/hasVersion> "0.1.1"@en .
+<http://divo.github.io/> <http://purl.org/dc/terms/issued> "11/02/2019"@en .
+<http://divo.github.io/> <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/"@en .
+<http://divo.github.io/> <http://purl.org/dc/terms/modified> "16/02/2019"@en .
+<http://divo.github.io/> <http://purl.org/dc/terms/publisher> "https://github.com/uomodhdk"@en .
+<http://divo.github.io/> <http://purl.org/dc/terms/title> "UOMO (User Oriented social Media Ontology) Profile"@en .
+<http://divo.github.io/> <http://www.w3.org/2000/01/rdf-schema#comment> "Ontology created by Sara Armaroli, Lucia Giagnolini, Michela Parma" .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/terms/description
+<http://purl.org/dc/terms/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/hasVersion
+<http://purl.org/dc/terms/hasVersion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/issued
+<http://purl.org/dc/terms/issued> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/modified
+<http://purl.org/dc/terms/modified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/publisher
+<http://purl.org/dc/terms/publisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://divo.github.io/classified_as
+<http://divo.github.io/classified_as> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://divo.github.io/classified_as> <http://www.w3.org/2000/01/rdf-schema#domain> <http://divo.github.io/InfernoSoul> .
+<http://divo.github.io/classified_as> <http://www.w3.org/2000/01/rdf-schema#range> <http://divo.github.io/InfernoSoul> .
+# 
+# http://divo.github.io/contains
+<http://divo.github.io/contains> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://divo.github.io/contains> <http://www.w3.org/2000/01/rdf-schema#domain> <http://divo.github.io/LiteraryElement> .
+<http://divo.github.io/contains> <http://www.w3.org/2000/01/rdf-schema#range> <http://divo.github.io/LiteraryElement> .
+# 
+# http://divo.github.io/created_by
+<http://divo.github.io/created_by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://divo.github.io/created_by> <http://www.w3.org/2000/01/rdf-schema#domain> <http://divo.github.io/LiteraryElement> .
+<http://divo.github.io/created_by> <http://www.w3.org/2000/01/rdf-schema#range> <http://divo.github.io/Agent> .
+# 
+# http://divo.github.io/has_commentary
+<http://divo.github.io/has_commentary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://divo.github.io/has_commentary> <http://www.w3.org/2000/01/rdf-schema#domain> <http://divo.github.io/Line> .
+<http://divo.github.io/has_commentary> <http://www.w3.org/2000/01/rdf-schema#range> <http://divo.github.io/Commentary> .
+# 
+# http://divo.github.io/has_edition
+<http://divo.github.io/has_edition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://divo.github.io/has_edition> <http://www.w3.org/2000/01/rdf-schema#domain> <http://divo.github.io/LiteraryWork> .
+<http://divo.github.io/has_edition> <http://www.w3.org/2000/01/rdf-schema#range> <http://divo.github.io/Edition> .
+# 
+# http://divo.github.io/has_inspired
+<http://divo.github.io/has_inspired> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://divo.github.io/has_inspired> <http://www.w3.org/2000/01/rdf-schema#domain> <http://divo.github.io/Agent> .
+<http://divo.github.io/has_inspired> <http://www.w3.org/2000/01/rdf-schema#range> <http://divo.github.io/Soul> .
+# 
+# http://divo.github.io/has_line
+<http://divo.github.io/has_line> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://divo.github.io/has_line> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+# 
+# http://divo.github.io/has_literary_style
+<http://divo.github.io/has_literary_style> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://divo.github.io/has_literary_style> <http://www.w3.org/2000/01/rdf-schema#domain> <http://divo.github.io/LiteraryWork> .
+<http://divo.github.io/has_literary_style> <http://www.w3.org/2000/01/rdf-schema#range> <http://divo.github.io/Style> .
+# 
+# http://divo.github.io/refers_to
+<http://divo.github.io/refers_to> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://divo.github.io/refers_to> <http://www.w3.org/2000/01/rdf-schema#domain> <http://divo.github.io/Line> .
+<http://divo.github.io/refers_to> <http://www.w3.org/2000/01/rdf-schema#range> <http://divo.github.io/Place> .
+# 
+# http://divo.github.io/related_character
+<http://divo.github.io/related_character> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://divo.github.io/related_character> <http://www.w3.org/2000/01/rdf-schema#domain> <http://divo.github.io/Line> .
+<http://divo.github.io/related_character> <http://www.w3.org/2000/01/rdf-schema#range> <http://divo.github.io/Agent> .
+# 
+# http://divo.github.io/related_to
+<http://divo.github.io/related_to> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://divo.github.io/related_to> <http://www.w3.org/2000/01/rdf-schema#domain> <http://divo.github.io/Line> .
+<http://divo.github.io/related_to> <http://www.w3.org/2000/01/rdf-schema#range> <http://divo.github.io/LiteraryElement> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://divo.github.io/appears_in_text_as
+<http://divo.github.io/appears_in_text_as> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://divo.github.io/appears_in_text_as> <http://www.w3.org/2000/01/rdf-schema#domain> <http://divo.github.io/Agent> .
+# 
+# http://divo.github.io/content
+<http://divo.github.io/content> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://divo.github.io/content> <http://www.w3.org/2000/01/rdf-schema#domain> <http://divo.github.io/LiteraryElement> .
+<http://divo.github.io/content> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://divo.github.io/has_name
+<http://divo.github.io/has_name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://divo.github.io/has_name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://divo.github.io/Agent> .
+# 
+# http://divo.github.io/has_number_of_canti
+<http://divo.github.io/has_number_of_canti> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://divo.github.io/has_number_of_canti> <http://www.w3.org/2000/01/rdf-schema#domain> <http://divo.github.io/LiteraryWork> .
+# 
+# http://divo.github.io/has_number_of_lines
+<http://divo.github.io/has_number_of_lines> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://divo.github.io/has_number_of_lines> <http://www.w3.org/2000/01/rdf-schema#domain> <http://divo.github.io/Canto> .
+# 
+# http://divo.github.io/has_title
+<http://divo.github.io/has_title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://divo.github.io/has_title> <http://www.w3.org/2000/01/rdf-schema#domain> <http://divo.github.io/LiteraryElement> .
+# 
+# http://divo.github.io/identifier
+<http://divo.github.io/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://divo.github.io/identifier> <http://www.w3.org/2000/01/rdf-schema#domain> <http://divo.github.io/Agent> .
+# 
+# http://divo.github.io/wrote_in
+<http://divo.github.io/wrote_in> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://divo.github.io/wrote_in> <http://www.w3.org/2000/01/rdf-schema#domain> <http://divo.github.io/LiteraryWork> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://divo.github.io/Agent
+<http://divo.github.io/Agent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://divo.github.io/Angel
+<http://divo.github.io/Angel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://divo.github.io/Angel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://divo.github.io/FictionalCharacter> .
+# 
+# http://divo.github.io/Cantica
+<http://divo.github.io/Cantica> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://divo.github.io/Cantica> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://divo.github.io/LiteraryElement> .
+# 
+# http://divo.github.io/Canto
+<http://divo.github.io/Canto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://divo.github.io/Canto> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://divo.github.io/LiteraryElement> .
+# 
+# http://divo.github.io/Commentary
+<http://divo.github.io/Commentary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://divo.github.io/Commentary> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://divo.github.io/LiteraryElement> .
+# 
+# http://divo.github.io/Demon
+<http://divo.github.io/Demon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://divo.github.io/Demon> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://divo.github.io/FictionalCharacter> .
+# 
+# http://divo.github.io/Edition
+<http://divo.github.io/Edition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://divo.github.io/Edition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://divo.github.io/LiteraryElement> .
+# 
+# http://divo.github.io/Editor
+<http://divo.github.io/Editor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://divo.github.io/Editor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://divo.github.io/Agent> .
+# 
+# http://divo.github.io/FictionalCharacter
+<http://divo.github.io/FictionalCharacter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://divo.github.io/FictionalCharacter> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://divo.github.io/Agent> .
+# 
+# http://divo.github.io/FictionalPlace
+<http://divo.github.io/FictionalPlace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://divo.github.io/FictionalPlace> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://divo.github.io/Place> .
+# 
+# http://divo.github.io/InfernoSoul
+<http://divo.github.io/InfernoSoul> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://divo.github.io/InfernoSoul> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://divo.github.io/Soul> .
+# 
+# http://divo.github.io/Line
+<http://divo.github.io/Line> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://divo.github.io/Line> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://divo.github.io/LiteraryElement> .
+# 
+# http://divo.github.io/LiteraryElement
+<http://divo.github.io/LiteraryElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://divo.github.io/LiteraryReference
+<http://divo.github.io/LiteraryReference> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://divo.github.io/LiteraryReference> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://divo.github.io/LiteraryElement> .
+# 
+# http://divo.github.io/LiteraryWork
+<http://divo.github.io/LiteraryWork> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://divo.github.io/LiteraryWork> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://divo.github.io/LiteraryElement> .
+# 
+# http://divo.github.io/ParadisoSoul
+<http://divo.github.io/ParadisoSoul> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://divo.github.io/ParadisoSoul> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://divo.github.io/Soul> .
+# 
+# http://divo.github.io/Place
+<http://divo.github.io/Place> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://divo.github.io/PurgatorioSoul
+<http://divo.github.io/PurgatorioSoul> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://divo.github.io/PurgatorioSoul> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://divo.github.io/Soul> .
+# 
+# http://divo.github.io/RealPerson
+<http://divo.github.io/RealPerson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://divo.github.io/RealPerson> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://divo.github.io/Agent> .
+# 
+# http://divo.github.io/RealPlace
+<http://divo.github.io/RealPlace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://divo.github.io/RealPlace> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://divo.github.io/Place> .
+# 
+# http://divo.github.io/Soul
+<http://divo.github.io/Soul> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://divo.github.io/Soul> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://divo.github.io/FictionalCharacter> .
+# 
+# http://divo.github.io/Style
+<http://divo.github.io/Style> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://divo.github.io/Style> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://divo.github.io/LiteraryElement> .
+# 
+# Generated by the OWL API (version 5.1.11) https://github.com/owlcs/owlapi/

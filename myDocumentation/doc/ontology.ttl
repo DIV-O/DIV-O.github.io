@@ -1,0 +1,276 @@
+@prefix : <http://divo.github.io/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://divo.github.io/> .
+
+<http://divo.github.io/> rdf:type owl:Ontology ;
+                          <http://purl.org/dc/terms/description> "UOMO (User Oriented social Media Ontology) Profile is an ontology for describing the information about Social Media focusing on the User's Profile."@en ;
+                          <http://purl.org/dc/terms/hasVersion> "0.1.1"@en ;
+                          <http://purl.org/dc/terms/issued> "11/02/2019"@en ;
+                          <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/"@en ;
+                          <http://purl.org/dc/terms/modified> "16/02/2019"@en ;
+                          <http://purl.org/dc/terms/publisher> "https://github.com/uomodhdk"@en ;
+                          <http://purl.org/dc/terms/title> "UOMO (User Oriented social Media Ontology) Profile"@en ;
+                          rdfs:comment "Ontology created by Sara Armaroli, Lucia Giagnolini, Michela Parma" .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/terms/description
+<http://purl.org/dc/terms/description> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/hasVersion
+<http://purl.org/dc/terms/hasVersion> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/issued
+<http://purl.org/dc/terms/issued> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/modified
+<http://purl.org/dc/terms/modified> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/publisher
+<http://purl.org/dc/terms/publisher> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://divo.github.io/classified_as
+:classified_as rdf:type owl:ObjectProperty ;
+               rdfs:domain :InfernoSoul ;
+               rdfs:range :InfernoSoul .
+
+
+###  http://divo.github.io/contains
+:contains rdf:type owl:ObjectProperty ;
+          rdfs:domain :LiteraryElement ;
+          rdfs:range :LiteraryElement .
+
+
+###  http://divo.github.io/created_by
+:created_by rdf:type owl:ObjectProperty ;
+            rdfs:domain :LiteraryElement ;
+            rdfs:range :Agent .
+
+
+###  http://divo.github.io/has_commentary
+:has_commentary rdf:type owl:ObjectProperty ;
+                rdfs:domain :Line ;
+                rdfs:range :Commentary .
+
+
+###  http://divo.github.io/has_edition
+:has_edition rdf:type owl:ObjectProperty ;
+             rdfs:domain :LiteraryWork ;
+             rdfs:range :Edition .
+
+
+###  http://divo.github.io/has_inspired
+:has_inspired rdf:type owl:ObjectProperty ;
+              rdfs:domain :Agent ;
+              rdfs:range :Soul .
+
+
+###  http://divo.github.io/has_line
+:has_line rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://divo.github.io/has_literary_style
+:has_literary_style rdf:type owl:ObjectProperty ;
+                    rdfs:domain :LiteraryWork ;
+                    rdfs:range :Style .
+
+
+###  http://divo.github.io/refers_to
+:refers_to rdf:type owl:ObjectProperty ;
+           rdfs:domain :Line ;
+           rdfs:range :Place .
+
+
+###  http://divo.github.io/related_character
+:related_character rdf:type owl:ObjectProperty ;
+                   rdfs:domain :Line ;
+                   rdfs:range :Agent .
+
+
+###  http://divo.github.io/related_to
+:related_to rdf:type owl:ObjectProperty ;
+            rdfs:domain :Line ;
+            rdfs:range :LiteraryElement .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://divo.github.io/appears_in_text_as
+:appears_in_text_as rdf:type owl:DatatypeProperty ;
+                    rdfs:domain :Agent .
+
+
+###  http://divo.github.io/content
+:content rdf:type owl:DatatypeProperty ;
+         rdfs:domain :LiteraryElement ;
+         rdfs:range xsd:string .
+
+
+###  http://divo.github.io/has_name
+:has_name rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Agent .
+
+
+###  http://divo.github.io/has_number_of_canti
+:has_number_of_canti rdf:type owl:DatatypeProperty ;
+                     rdfs:domain :LiteraryWork .
+
+
+###  http://divo.github.io/has_number_of_lines
+:has_number_of_lines rdf:type owl:DatatypeProperty ;
+                     rdfs:domain :Canto .
+
+
+###  http://divo.github.io/has_title
+:has_title rdf:type owl:DatatypeProperty ;
+           rdfs:domain :LiteraryElement .
+
+
+###  http://divo.github.io/identifier
+:identifier rdf:type owl:DatatypeProperty ;
+            rdfs:domain :Agent .
+
+
+###  http://divo.github.io/wrote_in
+:wrote_in rdf:type owl:DatatypeProperty ;
+          rdfs:domain :LiteraryWork .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://divo.github.io/Agent
+:Agent rdf:type owl:Class .
+
+
+###  http://divo.github.io/Angel
+:Angel rdf:type owl:Class ;
+       rdfs:subClassOf :FictionalCharacter .
+
+
+###  http://divo.github.io/Cantica
+:Cantica rdf:type owl:Class ;
+         rdfs:subClassOf :LiteraryElement .
+
+
+###  http://divo.github.io/Canto
+:Canto rdf:type owl:Class ;
+       rdfs:subClassOf :LiteraryElement .
+
+
+###  http://divo.github.io/Commentary
+:Commentary rdf:type owl:Class ;
+            rdfs:subClassOf :LiteraryElement .
+
+
+###  http://divo.github.io/Demon
+:Demon rdf:type owl:Class ;
+       rdfs:subClassOf :FictionalCharacter .
+
+
+###  http://divo.github.io/Edition
+:Edition rdf:type owl:Class ;
+         rdfs:subClassOf :LiteraryElement .
+
+
+###  http://divo.github.io/Editor
+:Editor rdf:type owl:Class ;
+        rdfs:subClassOf :Agent .
+
+
+###  http://divo.github.io/FictionalCharacter
+:FictionalCharacter rdf:type owl:Class ;
+                    rdfs:subClassOf :Agent .
+
+
+###  http://divo.github.io/FictionalPlace
+:FictionalPlace rdf:type owl:Class ;
+                rdfs:subClassOf :Place .
+
+
+###  http://divo.github.io/InfernoSoul
+:InfernoSoul rdf:type owl:Class ;
+             rdfs:subClassOf :Soul .
+
+
+###  http://divo.github.io/Line
+:Line rdf:type owl:Class ;
+      rdfs:subClassOf :LiteraryElement .
+
+
+###  http://divo.github.io/LiteraryElement
+:LiteraryElement rdf:type owl:Class .
+
+
+###  http://divo.github.io/LiteraryReference
+:LiteraryReference rdf:type owl:Class ;
+                   rdfs:subClassOf :LiteraryElement .
+
+
+###  http://divo.github.io/LiteraryWork
+:LiteraryWork rdf:type owl:Class ;
+              rdfs:subClassOf :LiteraryElement .
+
+
+###  http://divo.github.io/ParadisoSoul
+:ParadisoSoul rdf:type owl:Class ;
+              rdfs:subClassOf :Soul .
+
+
+###  http://divo.github.io/Place
+:Place rdf:type owl:Class .
+
+
+###  http://divo.github.io/PurgatorioSoul
+:PurgatorioSoul rdf:type owl:Class ;
+                rdfs:subClassOf :Soul .
+
+
+###  http://divo.github.io/RealPerson
+:RealPerson rdf:type owl:Class ;
+            rdfs:subClassOf :Agent .
+
+
+###  http://divo.github.io/RealPlace
+:RealPlace rdf:type owl:Class ;
+           rdfs:subClassOf :Place .
+
+
+###  http://divo.github.io/Soul
+:Soul rdf:type owl:Class ;
+      rdfs:subClassOf :FictionalCharacter .
+
+
+###  http://divo.github.io/Style
+:Style rdf:type owl:Class ;
+       rdfs:subClassOf :LiteraryElement .
+
+
+###  Generated by the OWL API (version 5.1.11) https://github.com/owlcs/owlapi/

@@ -1,0 +1,326 @@
+[ {
+  "@id" : "http://divo.github.io/",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "UOMO (User Oriented social Media Ontology) Profile is an ontology for describing the information about Social Media focusing on the User's Profile."
+  } ],
+  "http://purl.org/dc/terms/hasVersion" : [ {
+    "@language" : "en",
+    "@value" : "0.1.1"
+  } ],
+  "http://purl.org/dc/terms/issued" : [ {
+    "@language" : "en",
+    "@value" : "11/02/2019"
+  } ],
+  "http://purl.org/dc/terms/license" : [ {
+    "@language" : "en",
+    "@value" : "https://creativecommons.org/licenses/by/4.0/"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@language" : "en",
+    "@value" : "16/02/2019"
+  } ],
+  "http://purl.org/dc/terms/publisher" : [ {
+    "@language" : "en",
+    "@value" : "https://github.com/uomodhdk"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "UOMO (User Oriented social Media Ontology) Profile"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Ontology created by Sara Armaroli, Lucia Giagnolini, Michela Parma"
+  } ]
+}, {
+  "@id" : "http://divo.github.io/Agent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://divo.github.io/Angel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://divo.github.io/FictionalCharacter"
+  } ]
+}, {
+  "@id" : "http://divo.github.io/Cantica",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://divo.github.io/LiteraryElement"
+  } ]
+}, {
+  "@id" : "http://divo.github.io/Canto",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://divo.github.io/LiteraryElement"
+  } ]
+}, {
+  "@id" : "http://divo.github.io/Commentary",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://divo.github.io/LiteraryElement"
+  } ]
+}, {
+  "@id" : "http://divo.github.io/Demon",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://divo.github.io/FictionalCharacter"
+  } ]
+}, {
+  "@id" : "http://divo.github.io/Edition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://divo.github.io/LiteraryElement"
+  } ]
+}, {
+  "@id" : "http://divo.github.io/Editor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://divo.github.io/Agent"
+  } ]
+}, {
+  "@id" : "http://divo.github.io/FictionalCharacter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://divo.github.io/Agent"
+  } ]
+}, {
+  "@id" : "http://divo.github.io/FictionalPlace",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://divo.github.io/Place"
+  } ]
+}, {
+  "@id" : "http://divo.github.io/InfernoSoul",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://divo.github.io/Soul"
+  } ]
+}, {
+  "@id" : "http://divo.github.io/Line",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://divo.github.io/LiteraryElement"
+  } ]
+}, {
+  "@id" : "http://divo.github.io/LiteraryElement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://divo.github.io/LiteraryReference",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://divo.github.io/LiteraryElement"
+  } ]
+}, {
+  "@id" : "http://divo.github.io/LiteraryWork",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://divo.github.io/LiteraryElement"
+  } ]
+}, {
+  "@id" : "http://divo.github.io/ParadisoSoul",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://divo.github.io/Soul"
+  } ]
+}, {
+  "@id" : "http://divo.github.io/Place",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://divo.github.io/PurgatorioSoul",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://divo.github.io/Soul"
+  } ]
+}, {
+  "@id" : "http://divo.github.io/RealPerson",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://divo.github.io/Agent"
+  } ]
+}, {
+  "@id" : "http://divo.github.io/RealPlace",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://divo.github.io/Place"
+  } ]
+}, {
+  "@id" : "http://divo.github.io/Soul",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://divo.github.io/FictionalCharacter"
+  } ]
+}, {
+  "@id" : "http://divo.github.io/Style",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://divo.github.io/LiteraryElement"
+  } ]
+}, {
+  "@id" : "http://divo.github.io/appears_in_text_as",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://divo.github.io/Agent"
+  } ]
+}, {
+  "@id" : "http://divo.github.io/classified_as",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://divo.github.io/InfernoSoul"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://divo.github.io/InfernoSoul"
+  } ]
+}, {
+  "@id" : "http://divo.github.io/contains",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://divo.github.io/LiteraryElement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://divo.github.io/LiteraryElement"
+  } ]
+}, {
+  "@id" : "http://divo.github.io/content",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://divo.github.io/LiteraryElement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://divo.github.io/created_by",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://divo.github.io/LiteraryElement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://divo.github.io/Agent"
+  } ]
+}, {
+  "@id" : "http://divo.github.io/has_commentary",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://divo.github.io/Line"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://divo.github.io/Commentary"
+  } ]
+}, {
+  "@id" : "http://divo.github.io/has_edition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://divo.github.io/LiteraryWork"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://divo.github.io/Edition"
+  } ]
+}, {
+  "@id" : "http://divo.github.io/has_inspired",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://divo.github.io/Agent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://divo.github.io/Soul"
+  } ]
+}, {
+  "@id" : "http://divo.github.io/has_line",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://divo.github.io/has_literary_style",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://divo.github.io/LiteraryWork"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://divo.github.io/Style"
+  } ]
+}, {
+  "@id" : "http://divo.github.io/has_name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://divo.github.io/Agent"
+  } ]
+}, {
+  "@id" : "http://divo.github.io/has_number_of_canti",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://divo.github.io/LiteraryWork"
+  } ]
+}, {
+  "@id" : "http://divo.github.io/has_number_of_lines",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://divo.github.io/Canto"
+  } ]
+}, {
+  "@id" : "http://divo.github.io/has_title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://divo.github.io/LiteraryElement"
+  } ]
+}, {
+  "@id" : "http://divo.github.io/identifier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://divo.github.io/Agent"
+  } ]
+}, {
+  "@id" : "http://divo.github.io/refers_to",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://divo.github.io/Line"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://divo.github.io/Place"
+  } ]
+}, {
+  "@id" : "http://divo.github.io/related_character",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://divo.github.io/Line"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://divo.github.io/Agent"
+  } ]
+}, {
+  "@id" : "http://divo.github.io/related_to",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://divo.github.io/Line"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://divo.github.io/LiteraryElement"
+  } ]
+}, {
+  "@id" : "http://divo.github.io/wrote_in",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://divo.github.io/LiteraryWork"
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/terms/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/hasVersion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/issued",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/modified",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/publisher",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+} ]
