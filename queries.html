@@ -20,7 +20,7 @@
       <div class="card-body">
         <h4 class="card-title">CQ1</h4>
 		<h5 class="query-title">Which "Girone" of hell does Canto V refer to?</h5>
-        <div class="card-text"><p>PREFIX divo:<http://divo.github.io/></p>
+        <div class="card-text"><p>PREFIX divo:http://divo.github.io/</p>
 							<p>select ?Place</p>
 							<p>where { divo:InfV divo:refers_to ?Place.}</p></div>
         <!-- Button trigger modal -->
@@ -70,7 +70,7 @@
         <h4 class="card-title">CQ2</h4>
 		<h5 class="query-title">What are the lines in which Paolo and Francesca are involved?</h5>
 
-        <div class="card-text"><p>PREFIX divo:<http://divo.github.io/></p>
+        <div class="card-text"><p>PREFIX divo:http://divo.github.io/</p>
 								<p>select ?Line</p>
 								<p>where { ?Line divo:related_character divo:PaoloSoul.</p>
 								<p>?Line divo:related_character divo:FrancescaSoul.}</p>
@@ -133,7 +133,7 @@
         <h4 class="card-title">CQ3</h4>
 		<h5 class="query-title">What are the fictional characters mentioned in the text?</h5>
 		
-        <div class="card-text"><p>PREFIX divo:<http://divo.github.io/> </p>
+        <div class="card-text"><p>PREFIX divo:http://divo.github.io/ </p>
 								<p>select distinct ?FictionalCharacter</p>
 								<p>where { divo:InfV divo:has_line ?Line.</p>
 								<p>?Line divo:related_character ?FictionalCharacter.}</p>
@@ -237,8 +237,12 @@
   <div class="col-sm-4">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title">CQ4</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <h4 class="card-title">CQ4</h4>
+        <h5 class="query-title">What person inspired Paolo's soul?</h5>
+		<div class= "card-text"><p>PREFIX divo:http://divo.github.io/</p>
+								<p>select ?Agent</p>
+								</>where { ?Agent divo:has_inspired divo:PaoloSoul.}</p>
+</div>
          <!-- Button trigger modal -->
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal4">
   See the results
@@ -249,13 +253,24 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel4">Modal title</h5>
+        <h5 class="modal-title" id="exampleModalLabel4">What person inspired Paolo's soul?</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        ...
+        <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Agent</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>http://divo.github.io/PaoloMalatesta</td>
+    </tr>
+	</tbody>
+	</table>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -270,8 +285,12 @@
   <div class="col-sm-4">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title">CQ5</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <h4 class="card-title">CQ5</h4>
+        <h5 class="query-title">What is Dante's identifier?</h5>
+		<div class="card-text"><p>PREFIX divo:http://divo.github.io/</p>
+								<p>select ?x</p>
+								<p>where { divo:Dante divo:identifier ?x.}</p>
+		</div>
          <!-- Button trigger modal -->
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal5">
   See the results
@@ -282,13 +301,27 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel5">Modal title</h5>
+        <h5 class="modal-title" id="exampleModalLabel5">What is Dante's identifier?</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        ...
+        <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Identifier</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>http://dbpedia.org/page/Dante_Alighieri</td>
+	  </tr>
+	  <tr>
+<td>http://viaf.org/viaf/97105654 </td>
+    </tr>
+	</tbody>
+	</table>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -303,12 +336,53 @@
   <div class="col-sm-4">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title">CQ6</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <h4 class="card-title">CQ6</h4>
+        <h5 class="query-title">What is the character that is mentioned most times?</h5>
+		<div class="card-text"> <p>PREFIX divo:http://divo.github.io/</p>
+<p>select ?Agent  (COUNT(?Line) as ?Agent_count)</p>
+<p>where {?Line divo:related_character ?Agent.}</p>
+ <p>GROUP BY ?Agent</p>
+ <p>ORDER BY DESC(?Agent_count)<7p>
+<p>LIMIT 1 </p>
+
+		</div>
          <!-- Button trigger modal -->
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal6">
   See the results
 </button>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel5">What is the character that is mentioned most times?</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Agent</th>
+	  <th scope="col">times</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>http://divo.github.io/PaoloSoul</td>
+	  <td>9</td>
+	  </tr>
+	</tbody>
+	</table>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+       
+      </div>
+    </div>
+  </div>
+</div>
       </div>
     </div>
   </div>
