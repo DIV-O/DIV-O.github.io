@@ -689,7 +689,9 @@ adjsfojsd</p>
       <div class="card-body">
         <h4 class="card-title">CQ11</h4>
         <h5 class="query-title">What are the editions chosen to analyze the Canto V?</h5>
-		<div class="card-text">INSERISCI QUERY</div>
+		<div class="card-text"><p>PREFIX divo:http://divo.github.io/</p>
+								<p>select ?Edition</p>
+<p>where { divo:DivinaCommedia divo:has_edition ?Edition.}</p></div>
          <!-- Button trigger modal -->
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal11">
   See the results
@@ -706,7 +708,27 @@ adjsfojsd</p>
         </button>
       </div>
       <div class="modal-body">
-        ...
+        <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Line</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+       <td>http://divo.github.io/ChiavacciLeonardiEdition</td>
+    </tr>
+    <tr>
+    <td>http://divo.github.io/IngleseEdition</td>
+    </tr>
+	 <tr>
+      <td>http://divo.github.io/PasquiniQuaglioEdition</td>
+    </tr>
+	<tr>
+     <td>http://divo.github.io/SapegnoEdition</td>
+    </tr>
+  </tbody>
+</table>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
