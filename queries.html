@@ -14,6 +14,9 @@
 </head> 
 
 <body>
+<h4>TITOLOOOO</h4>
+<p>testo per spiegare AHSAHFSOGHDàORGHJERGàHAajfsofjdòojgdfgjfigiijfdjsjsjdjdjalqowkdd
+adjsfojsd</p>
 <div class="row">
   <div class="col-sm-4">
     <div class="card">
@@ -391,25 +394,74 @@
   <div class="col-sm-4">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title">CQ7</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <h4 class="card-title">CQ7</h4>
+        <h5 class="query-title">Which lines refer to Aeneid?</h5>
+		 <div class="card-text"><p>PREFIX divo:http://divo.github.io/</p>
+								<p>select ?Line</p>
+								<p>where {?Line divo:related_to ?LiteraryReference.</p>
+								<p>divo:Eneide divo:contains ?LiteraryReference.}</p>
+</div>
         <!-- Button trigger modal -->
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal7">
   See the results
 </button>
 
 <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="exampleModal7" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Which lines refer to Aeneid?</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        ...
+        <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Line</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>http://divo.github.io/Line47</td>
+    </tr>
+    <tr>
+       <td>http://divo.github.io/Line124</td>
+    </tr>
+    <tr>
+    <td>http://divo.github.io/Line126</td>
+    </tr>
+	 <tr>
+      <td>http://divo.github.io/Line138</td>
+    </tr>
+	<tr>
+     <td>http://divo.github.io/Line62</td>
+    </tr>
+	<tr>
+     <td>http://divo.github.io/Line20</td>
+    </tr>
+	<tr>
+     <td>http://divo.github.io/Line5</td>
+    </tr>
+	<tr>
+     <td>http://divo.github.io/Line4</td>
+    </tr>
+	<tr>
+     <td>http://divo.github.io/Line9</td>
+    </tr>
+	<tr>
+     <td>http://divo.github.io/Line69</td>
+    </tr>
+	<tr>
+     <td>http://divo.github.io/Line6</td>
+    </tr>
+	<tr>
+     <td>http://divo.github.io/Line46</td>
+    </tr>
+  </tbody>
+</table>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -424,25 +476,71 @@
   <div class="col-sm-4">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title">CQ8</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <h4 class="card-title">CQ8</h4>
+        <h5 class="query-title">What are the literary works related to Canto V?</h5>
+		<div class="card-text"><p>PREFIX divo:http://divo.github.io/</p>
+							<p>select distinct ?LiteraryWork </p>
+							<p>where {?Line divo:related_to ?LiteraryReference.</p>
+							<p>?LiteraryWork divo:contains ?LiteraryReference}</p>
+</div>
          <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal8">
   See the results
 </button>
 
 <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="exampleModal8" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <h5 class="modal-title" id="exampleModalLabel">What are the literary works related to Canto V?</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        ...
+          <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Literary works</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+       <td>http://divo.github.io/Eneide</td>
+    </tr>
+    <tr>
+    <td>http://divo.github.io/Convivio</td>
+    </tr>
+	 <tr>
+      <td>http://divo.github.io/DeAmore</td>
+    </tr>
+	<tr>
+     <td>http://divo.github.io/HistoriarumAdversusPaganosLibriSeptem</td>
+    </tr>
+	<tr>
+     <td>http://divo.github.io/CanticaInferno</td>
+    </tr>
+	<tr>
+     <td>http://divo.github.io/VangeloSecondoMatteo</td>
+    </tr>
+	<tr>
+     <td>http://divo.github.io/Metamorfosi</td>
+    </tr>
+	<tr>
+     <td>http://divo.github.io/CanticaParadiso</td>
+    </tr>
+	<tr>
+     <td>http://divo.github.io/CanticaPurgatorio</td>
+    </tr>
+	<tr>
+     <td>http://divo.github.io/Tebaide</td>
+    </tr>
+	<tr>
+     <td>http://divo.github.io/VitaNuova</td>
+    </tr>
+  </tbody>
+</table>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -457,25 +555,40 @@
   <div class="col-sm-4">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title">CQ9</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <h4 class="card-title">CQ9</h4>
+        <h5 class="query-title">Who was the author of the text "Historiarum adversus paganos libri septem"?</h5>
+		<div class="card-text"><p>PREFIX divo:http://divo.github.io/</p>
+								<p>select ?Agent</p>
+								<p>where {divo:HistoriarumAdversusPaganosLibriSeptem divo:created_by ?Agent.}</p></div>
          <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal9">
   See the results
 </button>
 
 <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="exampleModal9" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Who was the author of the text "Historiarum adversus paganos libri septem"?</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        ...
+         <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Agent</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+       <td>http://divo.github.io/PaoloOrosio</td>
+    </tr>
+
+  </tbody>
+</table>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -492,19 +605,102 @@
   <div class="col-sm-4">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title">CQ10</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <h4 class="card-title">CQ10</h4>
+        <h5 class="query-text">Which lines evoke the Divina Commedia itself?</h5>
+		<div class="card-text"><p>PREFIX divo:http://divo.github.io/</p>
+								<p>select ?Line</p>
+								<p>where{ {?Line divo:related_to  ?LiteraryReference.</p>
+								<p> divo:CanticaPurgatorio divo:contains ?LiteraryReference.}</p>
+								<p>UNION</p>
+								<p>{ ?Line divo:related_to  ?LiteraryReference. </p>
+								<p> divo:CanticaParadiso divo:contains ?LiteraryReference.}</p>
+								<p>UNION </p>
+								<p>{?Line divo:related_to  ?LiteraryReference. </p>
+								<p> divo:CanticaInferno divo:contains ?LiteraryReference.}} </p>
+</div>
          <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal10">
   See the results
 </button>
 
 <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="exampleModal10" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Which lines evoke the Divina Commedia itself?</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Line</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+       <td>http://divo.github.io/Line128</td>
+    </tr>
+    <tr>
+    <td>http://divo.github.io/Line46</td>
+    </tr>
+	 <tr>
+      <td>http://divo.github.io/Line128</td>
+    </tr>
+	<tr>
+     <td>http://divo.github.io/Line28</td>
+    </tr>
+	<tr>
+     <td>http://divo.github.io/Line3</td>
+    </tr>
+	<tr>
+     <td>http://divo.github.io/Line23</td>
+    </tr>
+	<tr>
+     <td>http://divo.github.io/Line28</td>
+    </tr>
+	<tr>
+     <td>http://divo.github.io/Line3</td>
+    </tr>
+	<tr>
+     <td>http://divo.github.io/Line48</td>
+    </tr>
+	<tr>
+     <td>http://divo.github.io/Line126</td>
+    </tr>
+  </tbody>
+</table>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+       
+      </div>
+    </div>
+  </div>
+</div>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title">CQ11</h4>
+        <h5 class="query-title">What are the editions chosen to analyze the Canto V?</h5>
+		<div class="card-text">INSERISCI QUERY</div>
+         <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal11">
+  See the results
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal11" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">What are the editions chosen to analyze the Canto V?</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -525,58 +721,75 @@
   <div class="col-sm-4">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title">CQ11</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-         <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-  See the results
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-       
-      </div>
-    </div>
-  </div>
+        <h4 class="card-title">CQ12</h4>
+        <H5 class="query-title">What are the comments to the lines referring to Minos?</h5>
+		<div class="card-text"><p>PREFIX divo:http://divo.github.io/</p>
+								<p>select ?Commentary</p>
+								<p>where {?Line divo:related_character divo:Minosse.</p>
+								<p> ?Line divo:has_commentary ?Commentary.}</p>
+      	
 </div>
-      </div>
-    </div>
-  </div>
-  <div class="col-sm-4">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">CQ12</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
          <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal12">
   See the results
 </button>
 
 <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="exampleModal12" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <h5 class="modal-title" id="exampleModalLabel">What are the comments to the lines referring to Minos?</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        ...
+          <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Commentary</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+       <td>http://divo.github.io/CLedLine21</td>
+    </tr>
+    <tr>
+    <td>http://divo.github.io/IedLine21</td>
+    </tr>
+	 <tr>
+      <td>http://divo.github.io/PQedLine21</td>
+    </tr>
+	<tr>
+     <td>http://divo.github.io/SedLine21</td>
+    </tr>
+	<tr>
+     <td>http://divo.github.io/CLedLine4</td>
+    </tr>
+	<tr>
+     <td>http://divo.github.io/IedLine4</td>
+    </tr>
+	<tr>
+     <td>http://divo.github.io/PQedLine4</td>
+    </tr>
+	<tr>
+     <td>http://divo.github.io/SedLine4</td>
+    </tr>
+	<tr>
+     <td>http://divo.github.io/CLedLine9</td>
+    </tr>
+	<tr>
+     <td>http://divo.github.io/IedLine9</td>
+    </tr>
+	<tr>
+     <td>http://divo.github.io/PQedLine9</td>
+    </tr>
+	<tr>
+     <td>http://divo.github.io/SedLine9</td>
+    </tr>
+  </tbody>
+</table>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
