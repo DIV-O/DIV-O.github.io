@@ -301,4 +301,34 @@ src: url('font/MavenPro-Regular.ttf') format('truetype');
 
 	
 
+/*------------CARDS-QUERIES------------------------*/
+
+.info-query{margin-top:50px;
+margin-left:30px;}
+
+.card-container{
+		margin-top:100px;
+		margin-left:50px;
+		margin-right: 50px;
+
+}
+
+.col-sm-4{
+	display: flex;
+display: -webkit-flex;
+flex-flow: row nowrap;
+-webkit-flex-flow: row nowrap;
+align-items: stretch;
+-webkit-align-items: stretch;
+justify-content: space-between;
+-webkit-justify-content: space-between;
+margin-top: 10px;
+flex: 1;
+padding: 16px;
+}
+
+.card-queries{width:400px;
+}
+
+
 

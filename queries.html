@@ -10,24 +10,27 @@
     <meta charset="utf-8">
     
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-   
-</head> 
-
+ 
+   <link href="stylesheet.css" rel="stylesheet" type="text/css">
+</head>
 <body>
+<div class="info-query">
 <h4>TITOLOOOO</h4>
 <p>testo per spiegare AHSAHFSOGHDàORGHJERGàHAajfsofjdòojgdfgjfigiijfdjsjsjdjdjalqowkdd
 adjsfojsd</p>
+</div>
+<div class="card-container">
 <div class="row">
   <div class="col-sm-4">
-    <div class="card">
-      <div class="card-body">
+    <div class="card-queries">
+      <div class="card-body d-flex flex-column">
         <h4 class="card-title">CQ1</h4>
 		<h5 class="query-title">Which "Girone" of hell does Canto V refer to?</h5>
         <div class="card-text"><p>PREFIX divo:http://divo.github.io/</p>
 							<p>select ?Place</p>
 							<p>where { divo:InfV divo:refers_to ?Place.}</p></div>
         <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+<button type="button" class="mt-auto  btn btn-light mt-auto" data-toggle="modal" data-target="#exampleModal">
   See the results
 </button>
 
@@ -58,7 +61,7 @@ adjsfojsd</p>
 
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="mt-auto btn btn-secondary" data-dismiss="modal">Close</button>
        
       </div>
     </div>
@@ -68,8 +71,8 @@ adjsfojsd</p>
     </div>
   </div>
   <div class="col-sm-4">
-    <div class="card">
-      <div class="card-body">
+    <div class="card-queries">
+      <div class="card-body d-flex flex-column">
         <h4 class="card-title">CQ2</h4>
 		<h5 class="query-title">What are the lines in which Paolo and Francesca are involved?</h5>
 
@@ -79,7 +82,7 @@ adjsfojsd</p>
 								<p>?Line divo:related_character divo:FrancescaSoul.}</p>
 </div>
         <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal2">
+<button type="button" class="mt-auto btn btn-light" data-toggle="modal" data-target="#exampleModal2">
   See the results
 </button>
 
@@ -121,7 +124,7 @@ adjsfojsd</p>
 </table>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="mt-auto btn btn-secondary" data-dismiss="modal">Close</button>
        
       </div>
     </div>
@@ -131,8 +134,8 @@ adjsfojsd</p>
     </div>
   </div>
   <div class="col-sm-4">
-    <div class="card">
-      <div class="card-body">
+    <div class="card-queries">
+      <div class="card-body d-flex flex-column">
         <h4 class="card-title">CQ3</h4>
 		<h5 class="query-title">What are the fictional characters mentioned in the text?</h5>
 		
@@ -142,7 +145,7 @@ adjsfojsd</p>
 								<p>?Line divo:related_character ?FictionalCharacter.}</p>
 </div>
          <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal3">
+<button type="button" class="mt-auto btn btn-light" data-toggle="modal" data-target="#exampleModal3">
   See the results
 </button>
 
@@ -225,7 +228,7 @@ adjsfojsd</p>
 </table>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="mt-auto btn btn-secondary" data-dismiss="modal">Close</button>
        
       </div>
     </div>
@@ -235,19 +238,18 @@ adjsfojsd</p>
     </div>
   </div>
 </div>
-
 <div class="row">
   <div class="col-sm-4">
-    <div class="card">
-      <div class="card-body">
+    <div class="card-queries">
+      <div class="card-body d-flex flex-column">
         <h4 class="card-title">CQ4</h4>
         <h5 class="query-title">What person inspired Paolo's soul?</h5>
 		<div class= "card-text"><p>PREFIX divo:http://divo.github.io/</p>
 								<p>select ?Agent</p>
-								</>where { ?Agent divo:has_inspired divo:PaoloSoul.}</p>
-</div>
+								<p>where { ?Agent divo:has_inspired divo:PaoloSoul.}</p>
+		</div>
          <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal4">
+<button type="button" class="mt-auto btn btn-light" data-toggle="modal" data-target="#exampleModal4">
   See the results
 </button>
 
@@ -276,7 +278,7 @@ adjsfojsd</p>
 	</table>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="mt-auto btn btn-secondary" data-dismiss="modal">Close</button>
        
       </div>
     </div>
@@ -284,10 +286,11 @@ adjsfojsd</p>
 </div>
       </div>
     </div>
-  </div>
+	</div>
+
   <div class="col-sm-4">
-    <div class="card">
-      <div class="card-body">
+    <div class="card-queries">
+      <div class="card-body d-flex flex-column">
         <h4 class="card-title">CQ5</h4>
         <h5 class="query-title">What is Dante's identifier?</h5>
 		<div class="card-text"><p>PREFIX divo:http://divo.github.io/</p>
@@ -295,7 +298,7 @@ adjsfojsd</p>
 								<p>where { divo:Dante divo:identifier ?x.}</p>
 		</div>
          <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal5">
+<button type="button" class="btn btn-light mt-auto" data-toggle="modal" data-target="#exampleModal5">
   See the results
 </button>
 
@@ -327,7 +330,7 @@ adjsfojsd</p>
 	</table>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-secondary mt-auto" data-dismiss="modal">Close</button>
        
       </div>
     </div>
@@ -337,8 +340,8 @@ adjsfojsd</p>
     </div>
   </div>
   <div class="col-sm-4">
-    <div class="card">
-      <div class="card-body">
+    <div class="card-queries">
+      <div class="card-body d-flex flex-column">
         <h4 class="card-title">CQ6</h4>
         <h5 class="query-title">What is the character that is mentioned most times?</h5>
 		<div class="card-text"> <p>PREFIX divo:http://divo.github.io/</p>
@@ -350,7 +353,7 @@ adjsfojsd</p>
 
 		</div>
          <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal6">
+<button type="button" class="btn btn-light mt-auto" data-toggle="modal" data-target="#exampleModal6">
   See the results
 </button>
 <!-- Modal -->
@@ -389,11 +392,13 @@ adjsfojsd</p>
       </div>
     </div>
   </div>
+
+
 </div>
 <div class="row">
   <div class="col-sm-4">
-    <div class="card">
-      <div class="card-body">
+    <div class="card-queries">
+      <div class="card-body d-flex flex-column">
         <h4 class="card-title">CQ7</h4>
         <h5 class="query-title">Which lines refer to Aeneid?</h5>
 		 <div class="card-text"><p>PREFIX divo:http://divo.github.io/</p>
@@ -402,7 +407,7 @@ adjsfojsd</p>
 								<p>divo:Eneide divo:contains ?LiteraryReference.}</p>
 </div>
         <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal7">
+<button type="button" class="btn btn-light mt-auto" data-toggle="modal" data-target="#exampleModal7">
   See the results
 </button>
 
@@ -474,8 +479,8 @@ adjsfojsd</p>
     </div>
   </div>
   <div class="col-sm-4">
-    <div class="card">
-      <div class="card-body">
+    <div class="card-queries">
+      <div class="card-body d-flex flex-column">
         <h4 class="card-title">CQ8</h4>
         <h5 class="query-title">What are the literary works related to Canto V?</h5>
 		<div class="card-text"><p>PREFIX divo:http://divo.github.io/</p>
@@ -484,7 +489,7 @@ adjsfojsd</p>
 							<p>?LiteraryWork divo:contains ?LiteraryReference}</p>
 </div>
          <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal8">
+<button type="button" class="btn btn-light mt-auto" data-toggle="modal" data-target="#exampleModal8">
   See the results
 </button>
 
@@ -553,15 +558,15 @@ adjsfojsd</p>
     </div>
   </div>
   <div class="col-sm-4">
-    <div class="card">
-      <div class="card-body">
+    <div class="card-queries">
+      <div class="card-body d-flex flex-column">
         <h4 class="card-title">CQ9</h4>
         <h5 class="query-title">Who was the author of the text "Historiarum adversus paganos libri septem"?</h5>
 		<div class="card-text"><p>PREFIX divo:http://divo.github.io/</p>
 								<p>select ?Agent</p>
 								<p>where {divo:HistoriarumAdversusPaganosLibriSeptem divo:created_by ?Agent.}</p></div>
          <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal9">
+<button type="button" class="btn btn-light mt-auto" data-toggle="modal" data-target="#exampleModal9">
   See the results
 </button>
 
@@ -601,10 +606,11 @@ adjsfojsd</p>
     </div>
   </div>
 </div>
+
 <div class="row">
   <div class="col-sm-4">
-    <div class="card">
-      <div class="card-body">
+    <div class="card-queries">
+      <div class="card-body d-flex flex-column">
         <h4 class="card-title">CQ10</h4>
         <h5 class="query-text">Which lines evoke the Divina Commedia itself?</h5>
 		<div class="card-text"><p>PREFIX divo:http://divo.github.io/</p>
@@ -619,7 +625,7 @@ adjsfojsd</p>
 								<p> divo:CanticaInferno divo:contains ?LiteraryReference.}} </p>
 </div>
          <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal10">
+<button type="button" class="btn btn-light mt-auto" data-toggle="modal" data-target="#exampleModal10">
   See the results
 </button>
 
@@ -685,15 +691,15 @@ adjsfojsd</p>
     </div>
   </div>
   <div class="col-sm-4">
-    <div class="card">
-      <div class="card-body">
+    <div class="card-queries">
+      <div class="card-body d-flex flex-column">
         <h4 class="card-title">CQ11</h4>
         <h5 class="query-title">What are the editions chosen to analyze the Canto V?</h5>
 		<div class="card-text"><p>PREFIX divo:http://divo.github.io/</p>
 								<p>select ?Edition</p>
 <p>where { divo:DivinaCommedia divo:has_edition ?Edition.}</p></div>
          <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal11">
+<button type="button" class="btn btn-light mt-auto" data-toggle="modal" data-target="#exampleModal11">
   See the results
 </button>
 
@@ -741,8 +747,8 @@ adjsfojsd</p>
     </div>
   </div>
   <div class="col-sm-4">
-    <div class="card">
-      <div class="card-body">
+    <div class="card-queries">
+      <div class="card-body d-flex flex-column">
         <h4 class="card-title">CQ12</h4>
         <H5 class="query-title">What are the comments to the lines referring to Minos?</h5>
 		<div class="card-text"><p>PREFIX divo:http://divo.github.io/</p>
@@ -752,7 +758,7 @@ adjsfojsd</p>
       	
 </div>
          <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal12">
+<button type="button" class="btn btn-light mt-auto" data-toggle="modal" data-target="#exampleModal12">
   See the results
 </button>
 
@@ -824,5 +830,8 @@ adjsfojsd</p>
     </div>
   </div>
 </div>
+
+</div>
 </body>
 </html>
+	
