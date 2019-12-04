@@ -278,8 +278,8 @@ src: url('font/humanistic.cursive.ttf') format('truetype');}
 		background-image: url("images/sfondoprova.png");
 		background-repeat: no-repeat;
 		background-size: cover;
-    margin: 15%;
-    padding: 100px;
+    margin: 10%;
+    padding-left: 10%;
 }
 
 
