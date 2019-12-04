@@ -299,7 +299,10 @@ src: url('font/MavenPro-Regular.ttf') format('truetype');
 	padding: 7%;
 }
 
-	
+/*------------link------------------------*/
+
+a:link{color: black;}
+a:hover {color: black;}
 
 /*------------CARDS-QUERIES------------------------*/
 
