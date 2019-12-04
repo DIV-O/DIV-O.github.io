@@ -18,7 +18,7 @@ src: url('font/MavenPro-Regular.ttf') format('truetype');
 }
 
 @font-face
-{ font-family: 'Meddon', cursive;
+{ font-family: Meddon, cursive;
 src: url('font/Meddon-Regular.ttf') format('truetype');}
  
  
