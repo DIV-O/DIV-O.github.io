@@ -275,10 +275,10 @@ src: url('font/humanistic.cursive.ttf') format('truetype');}
 
 
 .homepage {
-		background-image: url("images/sfondo.jpg");
+		background-image: url("images/sfondoprova.png");
 		background-repeat: no-repeat;
 		background-size: cover;
-    padding-bottom: 350px;
+    margin: 15%;
 }
 
 
