@@ -16,6 +16,10 @@ src: url('font/Beauty.ttf') format('truetype');
 {font-family: maven;
 src: url('font/MavenPro-Regular.ttf') format('truetype');
 }
+
+@font-face
+{ font-family: 'Meddon', cursive;
+src: url('font/Meddon-Regular.ttf') format('truetype');}
  
  
  
@@ -266,7 +270,7 @@ src: url('font/MavenPro-Regular.ttf') format('truetype');
 	padding-top: 20px;
 	padding-bottom: 20px;
 	font-size: 35px;
-	font-family: maven;
+	font-family: Meddon;
 }
 
 
