@@ -279,6 +279,7 @@ src: url('font/humanistic.cursive.ttf') format('truetype');}
 		background-repeat: no-repeat;
 		background-size: cover;
     margin: 15%;
+    padding: 100px;
 }
 
 
