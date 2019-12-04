@@ -355,9 +355,11 @@ width:100%;
 .center-fit {
 	padding: 0;
     display: block;
-    margin: 0 auto;
+    margin: auto;
     max-height: 100%;
     max-width: 100%;
+	margin-left:auto;
+	margin-right:auto;
 }
 
 
