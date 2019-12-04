@@ -301,11 +301,8 @@ src: url('font/MavenPro-Regular.ttf') format('truetype');
 
 /*------------link------------------------*/
 
-a:link{color: black;}
-a:hover {color: red;
-text-decoration:none;}
-a:visited{color:black;}
-a:active {color: black;}
+
+
 
 /*------------CARDS-QUERIES------------------------*/
 
