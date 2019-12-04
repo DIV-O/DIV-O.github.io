@@ -18,8 +18,8 @@ src: url('font/MavenPro-Regular.ttf') format('truetype');
 }
 
 @font-face
-{ font-family: Meddon, cursive;
-src: url('font/Meddon-Regular.ttf') format('truetype');}
+{ font-family: Humanistic;
+src: url('font/humanistic.cursive.ttf') format('truetype');}
  
  
  
@@ -269,8 +269,8 @@ src: url('font/Meddon-Regular.ttf') format('truetype');}
 .card-title {
 	padding-top: 20px;
 	padding-bottom: 20px;
-	font-size: 35px;
-	font-family: Meddon;
+	font-size: 50px;
+	font-family: Humanistic;
 }
 
 
@@ -298,13 +298,14 @@ src: url('font/Meddon-Regular.ttf') format('truetype');}
 }
 
 .intro {
-	background-color: black;
+	background-color:#E0C5A7;
 	color: white;
 	padding: 7%;
 }
 
 /*------------link------------------------*/
-
+.link-card-title :hover {
+  color:#7A1E07;}
 
 
 
