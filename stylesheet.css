@@ -16,6 +16,10 @@ src: url('font/Beauty.ttf') format('truetype');
 {font-family: maven;
 src: url('font/MavenPro-Regular.ttf') format('truetype');
 }
+
+@font-face
+{ font-family: Humanistic;
+src: url('font/humanistic.cursive.ttf') format('truetype');}
  
  
  
@@ -265,8 +269,8 @@ src: url('font/MavenPro-Regular.ttf') format('truetype');
 .card-title {
 	padding-top: 20px;
 	padding-bottom: 20px;
-	font-size: 35px;
-	font-family: maven;
+	font-size: 50px;
+	font-family: Humanistic;
 }
 
 
@@ -293,14 +297,15 @@ src: url('font/MavenPro-Regular.ttf') format('truetype');
 	background-color: rgba(233, 223, 209, 0.9) !important; 
 }
 
-.intro {
-	background-color: black;
+/*.intro {
+	background-color:#E0C5A7;
 	color: white;
 	padding: 7%;
-}
+}*/
 
 /*------------link------------------------*/
-
+.link-card-title :hover {
+  color:#7A1E07;}
 
 
 
@@ -318,9 +323,12 @@ margin-left:30px;}
 
 .btn-light{position:absolute;
    bottom:0;
+width:80%;
+margin-bottom:10px;
    }
    
-   
+
+
 .col-sm-4{
 	display: flex;
 display: -webkit-flex;
@@ -332,10 +340,34 @@ justify-content: space-between;
 -webkit-justify-content: space-between;
 margin-top: 10px;
 flex: 1;
-padding: 16px;
+padding: 25px ;
+
+margin-left: 10px;
+margin-right: 10px;
+border: 1px solid rgba(0,0,0,.125);
+border-radius: .25rem;
+width:100%;
 
 }
 
+.paolo-francesca{
+background-image: url('images/paolo-francesca.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+height: 100%; 
+background-position: center;
+}
+
+.center-fit {
+	padding: 0;
+    display: block;
+    margin: auto;
+    max-height: 100%;
+    max-width: 100%;
+	margin-left:auto;
+	margin-right:auto;
+
+}
 
 
 
