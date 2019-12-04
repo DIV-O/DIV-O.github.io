@@ -350,7 +350,11 @@ width:100%;
 
 }
 
-.paolo-francesca{background-image: url('images/paolo-francesca.jpg');}
+.paolo-francesca{background-image: url('images/paolo-francesca.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+
+}
 
 .center-fit {
 	padding: 0;
