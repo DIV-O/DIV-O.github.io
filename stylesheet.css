@@ -395,4 +395,9 @@ width:100%;
 
 .popover {
   margin-left: 80px;
+margin-top: 90px;
+}
+
+.arrow {
+top: 5% !important;
 }
