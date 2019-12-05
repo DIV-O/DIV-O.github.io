@@ -280,7 +280,9 @@ src: url('font/humanistic.cursive.ttf') format('truetype');}
 		background-size: contain;
     margin-left: 10%;
     margin-right: 10%;
-    padding-left: 10%;
+    background-repeat: no-repeat;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 
