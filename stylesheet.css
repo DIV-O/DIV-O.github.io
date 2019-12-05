@@ -276,8 +276,8 @@ src: url('font/humanistic.cursive.ttf') format('truetype');}
 
 .homepage {
 		background: url("images/sfondoprova.png") no-repeat center;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 4%;
+    margin-right: 4%;
     padding-bottom: 4%;
 
 }
@@ -285,7 +285,7 @@ src: url('font/humanistic.cursive.ttf') format('truetype');}
 
 .text-block {
 	text-align: center;
-	padding: 10%;
+	padding: 20%;
 }
 	
 
