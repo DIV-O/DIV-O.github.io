@@ -431,10 +431,7 @@ width:100%;
             position:relative;
           }
 
-          #timeline-wrap p {
-            margin-top: -50%;
-			
-          }
+         
 
           .marker{
             top:-25px;
