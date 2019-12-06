@@ -389,7 +389,7 @@ width:100%;
 
 
 #subtitle{
-	    font-family: BebasNeue-Regular;
+	 font-family: BebasNeue-Regular;
     font-size: 1.5vw;
     color: white;
     position: absolute;
@@ -399,11 +399,10 @@ width:100%;
     padding-top: 180px;
     letter-spacing: 3px;
     border: 5px solid white;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-bottom: 10px;
-}
-}
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 200px;
+    
 
 .canto {
   margin-top: 50px;
