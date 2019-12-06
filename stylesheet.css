@@ -550,7 +550,26 @@ width:100%;
   /* Place the timelime to the left */
   .time-line-verticale::after {
   left: 31px;
-  }
+}}
   
+/* DOCUMENTATION */
 
+.documentation-title{font-family: Raleway-Bold;
+color:#e1d669;
+text-align:center;
+font-size:75px;
+margin-top:30px;
+padding-bottom:30px;}
+
+.subtitle-documentation{font-family:Questrial-Regular;
+    font-size: 30px;
+	color:#D33C17;
+	font-weight:500;
+	}
  
+ .container-documentation p{font-family:Raleway-Light;}
+ .container-documentation{margin-left:70px;
+ margin-right:70px;
+ text-align:justify;
+ margin-bottom:80px;}
+ .container-documentation li{font-family:Raleway-Light;}
