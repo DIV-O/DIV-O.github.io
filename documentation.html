@@ -1,42 +1,160 @@
 <!DOCTYPE html>
 <html>
   <head> 
-     <link rel="stylesheet" type="text/css" href="stylesheet.css"> 
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    
+    <meta charset="utf-8">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+ 
+	<script src="javascript.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> <!--style-->
+	
+ 
+   <link href="stylesheet.css" rel="stylesheet" type="text/css">
+   <style id="css" type="text/css" href="stylesheet.css"></style>
+   <link rel="icon" href="images/logo-fiamma.png"> <!-- FAVICON (logo nella scheda del browser)-->
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	   
+	   
+	 <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <title>Div-o</title>
+    
+
 </head>
-  
+<body>
+
+<!--------------------------------------------------NAVBAR---------------------------------------->
+    <nav id="start" class="navbar navbar-expand-lg navbar-dark" style="padding: 5px;">
+      
+      <div class="logo-index">
+        <a class="index-button" >
+          <div>
+          <img class="logo" src="images/logo.png">
+          </div>
+        </a>
+      </div>
+      
+      <a class="index-button" id="ladolcevita" href="contenuto.html">DIV-O</a>
+        <button class="navbar-toggler" type="button" data-target="#navbarNav" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation" aria-controls="navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+        
+            
+              <a class="nav-link dropdown-toggle" href="#" id="article-button" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PROJECT</a>
+                <div class="dropdown-menu">
+
+                    <a class="dropdown-item" href="cantoV-analysis.html">Canto V analysis</a>
+                     <div class="dropdown-divider"></div> 
+                    <a class="dropdown-item" href="knowledge-graph.html">Knowledge grpah</a>
+                     <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="documentation.html">Documentation</a>
+                     <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="queries.html">Query</a>
+                     
+                </div>
+          </li>
+          <li class="nav-item"><a class="nav-link about-button" role="button" href="team.html">TEAM</a></li>
+        </ul>
+      </div>
+    </nav>
+<!--FINE NAVBAR-->
 
 
 
 
 
   <body>
-  <h1>Scopo del progetto: </h1>
+  <div class="container-documentation">
+  <h1 class="documentation-title">DOCUMENTATION</h1>
+  <h1 class="subtitle-documentation">Scopo del progetto: </h1>
 <p>Lo scopo del progetto è quello di estrarre conoscenza dalla Divina Commedia di Dante. In particolare abbiamo scelto di esaminare il Canto V dell’Inferno, e di convertire la conoscenza in a Link Open Data enviroment. Abbiamo creato un’ontologia specifica per l’analisi della Divina Commedia (chiamata DIVO), nel nostro caso popolata con i dati del Canto V dell'Inferno, ma che può essere utilizzata per esaminare tutti gli altri canti. </p>
 
-<h1>Scelta del Canto: </h1>
+<h1 class="subtitle-documentation">Scelta del Canto: </h1>
 <p>Abbiamo scelto il Canto V dell’inferno perché particolarmente ricco di personaggi e luoghi che possono essere ben collegati ad altre informazioni, in modo da un'idea dell'immensità del teatro dei personaggi che ruota intorno alla Divina Commedia. </p>
 
-<h1>Gathering information: </h1>
+<h1 class="subtitle-documentation">Gathering information: </h1>
 <p>Abbiamo deciso di utilizzare come testo utilizzato per la visualizzazione delle informazioni quello dell'edizione di Giorgio Inglese. Per la raccolta dei dati ci siamo basati sulle segueenti edizioni: (inserisci elenco puntato delle edizioni). Abbiamo estratto i dati in maniera manuale per via del tipo di analisi che volevamo svolgere.</p>
 
-<h1>Sviluppo ontologia:</h1>
+<h1 class="subtitle-documentation">Sviluppo ontologia:</h1>
 <p>Per la costruzione della nostra ontologia siamo partiti dalla struttura stessa della Divina Commedia, suddivivendola in cantiche, canti e versi. Successivamente l'abbiamo arricchita di classi relative a tutto l'Universo di luoghi e personaggi che ruota attorno al poema dantesco. Così troveremo la Classe Agent e le relative sottoclassi per definire i personaggi gravitanti attorno ai canti, così come la classe Place per classificare i luoghi. Oltre a questo tipo di analisi, abbiamo preso in considerazione i commenti di quattro Dantisti, dunque abbiamo ritenuto opportuno l'inserimento nell' ontologia classi che si riferiscono a questo aspetto e a tutte le informazioni che ne derivano, per poterle connettere al testo. La nostra ontologia si divide dunque in tre "macro" classi, Agent, LiteraryElement e Place.</p>
 
-<h1>Scelte tecniche: </h1>
+<h1 class="subtitle-documentation">Scelte tecniche: </h1>
 <p>Durante lo sviluppo dell’ontologia, in particolare nella fase della creazione degli “individuals”, ci siamo imbattute in una serie di problemi di categorizzazione, ad esempio:</p>
 <ul>
 <li>Dante è allo stesso tempo autore della Divina commedia e protagonista dell’opera. Il protagonista dell’opera è consapevole di esserne l’autore, come si legge dalla seguente terzina:
-
-<p>“O muse, o alto ingegno, or m’aiutate;
- o mente che scrivesti ciò ch’io vidi,
-qui si parrà la tua nobilitate.”</p>
-(Inf II 7-9)
-In questo caso abbiamo deciso di inserire Dante nella categoria generale “Agent” per non assegnargli una categoria specifica che lo limitasse a quell’unica categoria.</li>
+<blockquote>
+<q>O muse, o alto ingegno, or m’aiutate;<br>
+o mente che scrivesti ciò ch’io vidi,<br>
+qui si parrà la tua nobilitate.</q>
+</blockquote>
+<p>(Inf II 7-9)</p>
+<p>In questo caso abbiamo deciso di inserire Dante nella categoria generale “Agent” per non assegnargli una categoria specifica che lo limitasse a quell’unica categoria.</p></li>
 
 <li>Per la figura di Dio ci siamo chieste se dovesse essere considerato un personaggio di invenzione o realmente esistito. La scelta della categoria dipende dall’interpretazioni che ciascuna persona da a Dio. 
 Per rispettare le differenti posizioni che possono esistere, abbiamo preferito inserire Dio sotto la categoria generale “Agent”, insieme a Dante.</li>
 <li>Altri due problemi che abbiamo affrontato sono stati quelli della rappresentazione di ciascun personaggio che Dante da attraverso la scrittura, e la differenziazione tra personaggio e anima. Infatti, Dante nel suo viaggio incontra diverse anime che corrispondono alle anime di personaggi in alcuni casi realmente esistiti ed in altri di fantasia. I personaggi di cui Dante scrive sono la rappresentazione che lui ne da attraverso la scrittura e che sono ispirati a personaggi reali/ di fantasia, ma tuttavia non identificabili con il personaggio stesso. Per esempio: Dante incontra l’anima di Achille che si trova tra le anime dei lussuriosi. L’Achille Dantesco ovviamente non è lo stesso descritto da Omero. 
 Dante incontra anche le anime di personaggi realmente esistiti, ad esempio quella di Francesca e di Paolo. In questi casi vi sono due livelli di differenziazione: in primo luogo Dante incontra l’anima del personaggio e non la persona fisica realmente esistita, inoltre Dante rappresenta il personaggio in maniera del tutto soggettiva. </li>
 </ul>
+</div>
+<!------------------------------------------FOOTER-------------------------------------------->
+<div class="footer">
+  
+                
+    <div id="logos">
+ 
+		<a href="index.html">
+            <img  id="logo-palma" src="images/logo.png" class="toindex">
+          </a>
+		<a href="https://www.facebook.com/DHDK.unibo/" target="_blank">
+            <img src= "images/facebook.png" class="toindex" >
+        </a>
+		
+		<a href="https://twitter.com/UniboDHDK" target="_blank">
+            <img src= "images/twitter.png" class="toindex" >
+        </a>
+		<a href="https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge" target="_blank">
+            <img src= "images/unibo.PNG" class="toindex" >
+        </a>
+		<a href="#start">
+            <img id="freccia" src= "images/totop.png" class="toindex" >
+        </a>
+    </div>
+    
 
-  </body>
+
+<div class="copyright" align="center">
+ 
+  <p>© Copyright 2019 Div-o - All Rights Reserved</p>
+  
+</div>
+
+
+</div> <!----------------------------------FOOTER END------------------------------------------->
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+</body>
+</html>
+
