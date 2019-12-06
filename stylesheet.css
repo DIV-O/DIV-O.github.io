@@ -375,19 +375,19 @@ width:100%;
   margin-top: 50px;
 }
 
-
 .popover {
   margin-left: 80px;
 
 }
 
-
-
-
 .timeline-edizione{
   margin-top:20px;
 }
 
+.btn {
+  color: green;
+ text-decoration: underline;
+}
 
 
 /*------------link------------------------*/
