@@ -417,18 +417,19 @@ width:100%;
 		.timeline-button-ed:hover{ color:#7A1E07;}
 
           #timeline-wrap{
-            margin-top:8%;
-            margin-bottom:6%;
-            margin-left: 10%;
-            margin-right: 10%;
+            margin-top:5%;
+            margin-bottom:15%;
+            margin-left: 15%;
+            margin-right: 15%;
             position:relative;
           }
+
 
           #timeline{
             height:1px;
             width: 100%;
             background-color: black;
-            position:relative;
+            position: absolute;
           }
 
          
@@ -439,33 +440,28 @@ width:100%;
             font-size: 12pt;
             text-align: center;
             position: absolute;
-			margin-left: -20px;
-		
           }
 
-        .
+        .mfirst {left: -12%; }
 
           .m2{
-                left:10%;
-			
+                left:18.5%
           }
 
           .m3{
-              left:45%
+              left:38%
           }
 
           .m4{
-              left:70%
+              left:68%
           }
 
           .m5{
-              left:90%
+              left: 98%;
             }
 
-          .mlast{
-              left:110%;
-			  
-          }
+
+        
 .input[type='radio']:after {background-color:black;}
  input[type='radio']:checked:after {background-color:black;}
  
@@ -483,7 +479,8 @@ width:100%;
   position: relative;
   max-width: 1200px;
   margin: 0 auto;
-  width: 100%;
+  height: 160px;
+  padding-bottom: 20px;
 }
 
 /* The actual timeline (the vertical ruler) */
@@ -492,16 +489,15 @@ width:100%;
   position: absolute;
   width: 1px;
   background-color: black;
-  top: 0;
-  bottom: 0;
-  left: 50%;
+  top: 20px;
+  left: 30%;
   margin-left: -3px;
   height:150%;
 }
 
 /* Container around content */
 .container {
-  padding: 15px 40px;
+  padding: 15px;
   position: relative;
   background-color: inherit;
   width: 50%;
@@ -528,7 +524,7 @@ width:100%;
 
 /* Place the container to the right */
 .right {
-  left: 49%;
+  left: 29.5%;
   margin-top: 50px;
 }
 
