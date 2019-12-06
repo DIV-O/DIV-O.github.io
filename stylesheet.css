@@ -23,17 +23,33 @@ src: url('font/humanistic.cursive.ttf') format('truetype');}
 
 
 @font-face
-{ font-family: Graduate;
-src: url('font/Graduate-Regular.ttf') format('truetype');}
+{ font-family: Raleway-Bold;
+src: url('font/Raleway-Bold.ttf') format('truetype');}
 
 
  
  @font-face
 { font-family: BebasNeue-Regular;
 src: url('font/BebasNeue-Regular.ttf') format('truetype');}
- 
- 
- 
+
+@font-face
+{ font-family:Questrial-Regular;
+src: url('font/Questrial-Regular.ttf') format('truetype');}
+
+
+ @font-face
+{ font-family: CabinCondensed-SemiBold;
+src: url('font/ CabinCondensed-SemiBold.ttf') format('truetype');}
+
+
+
+ @font-face
+{ font-family:Raleway-Light;
+src: url('font/Raleway-Light.ttf') format('truetype');}
+
+
+
+
          
               
 /*------------NAVBAR STYLE------------------------*/
@@ -323,24 +339,52 @@ src: url('font/BebasNeue-Regular.ttf') format('truetype');}
 
 /*------------CARDS-QUERIES------------------------*/
 
+.query-page-title{font-family: Raleway-Bold;
+color:#e1d669;
+text-align:center;
+font-size:75px;}
+
+.query-subtitle{font-family:Questrial-Regular;
+    font-size: 30px;
+	text-align:center;
+	font-weight:500;
+	margin-top:-15px;
+	}
+
+.card-title-query{font-family:Raleway-Bold;
+color:#e1d669;}
+
+.query-title{font-weight: 600;}
+
+.modal-title{font-family:Questrial-Regular;
+font-weight:bold;}
+
+
+
+.card-text{font-family:Questrial-Regular;}
+
 .info-query{margin-top:50px;
 margin-left:30px;}
 
-.card-container{
+.card-container{ background-color:url(' http://api.thumbr.it/whitenoise-361x370.png?');
 		margin-top:100px;
-		margin-left:50px;
-		margin-right: 50px;
+		margin-left:70px;
+		margin-right: 70px;
 		padding-bottom:100px;
 }
+
+
+.intro-query{font-family:Raleway-Light;
+margin-left:40px;}
+
 
 .btn-light{position:absolute;
    bottom:0;
 width:80%;
 margin-bottom:10px;
+background-color:#EFEAAC;
    }
    
-
-
 .col-sm-4{
 	display: flex;
 display: -webkit-flex;
