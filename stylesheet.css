@@ -20,6 +20,17 @@ src: url('font/MavenPro-Regular.ttf') format('truetype');
 @font-face
 { font-family: Humanistic;
 src: url('font/humanistic.cursive.ttf') format('truetype');}
+
+
+@font-face
+{ font-family: Graduate;
+src: url('font/Graduate-Regular.ttf') format('truetype');}
+
+
+ 
+ @font-face
+{ font-family: BebasNeue-Regular;
+src: url('font/BebasNeue-Regular.ttf') format('truetype');}
  
  
  
@@ -364,28 +375,34 @@ width:100%;
 
 }
 
+
 #title{
-	font-family: beauty;
+	font-family: Graduate;
 	font-size:13vw;
-	color:white;
   position: absolute;
-  top: 50%;
-  left: 50%;
+	top: 40%;
+	left: 50%;
 	transform: translate(-50%, -50%);
 	padding-top: 150px;
+	color:#e1d669;
 }
 
 
 #subtitle{
-	font-family: geo;
-	font-size: 1.5vw;
-	color:white;
-	position: absolute;
-  top: 50%;
-  left: 50%;
-	transform: translate(-50%, -50%);
-	padding-top: 200px;
-	letter-spacing: 3px;
+	    font-family: BebasNeue-Regular;
+    font-size: 1.5vw;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 180px;
+    letter-spacing: 3px;
+    border: 5px solid white;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+}
 }
 
 .canto {
