@@ -47,11 +47,6 @@ src: url('font/ CabinCondensed-SemiBold.ttf') format('truetype');}
 { font-family:Raleway-Light;
 src: url('font/Raleway-Light.ttf') format('truetype');}
 
-
-
-
-         
-              
 /*------------NAVBAR STYLE------------------------*/
        .nav-link { 
           margin-right: 15px;
@@ -125,9 +120,6 @@ src: url('font/Raleway-Light.ttf') format('truetype');}
 }
 
 
-
-
-
 /*-----------------FOOTER STYLE-----------------*/
           
           .footer { 
@@ -193,74 +185,8 @@ src: url('font/Raleway-Light.ttf') format('truetype');}
             font-family: Helvetica, Arial, sans-serif;
             color: black;
           }
-
-
-          /*FORM IN FOOTER*/
-
-          .button-form {
-            background-color: #000000; 
-            font-family: Helvetica, Arial, sans-serif; 
-			background-color:transparent;
-            letter-spacing: 2.5px; 
-            font-size: 11px; 
-            border: none; 
-            color: #808080; 
-            padding-left: 0px; 
-            padding-right: 0px;
-          }
-
-          .modal-title{
-            font-family: Helvetica, Arial, sans-serif;
-          color: black;
-          }
-
-
-          /* Style inputs */
-          input[type=text], select, textarea {
-            width: 100%;
-            padding: 12px;
-            border: 1px solid #ccc;
-            margin-top: 6px;
-            margin-bottom: 16px;
-            resize: vertical;
-          }
-
-          input[type=submit] {
-            background-color:transparent;
-            color: black;
-            border: none;
-          }
-
-          input[type=submit]:hover {
-            background-color: transparent;
-          }
-		
-          /* contact section */
-          .container-modal {
-            background-color:white;
-            padding: 10px;
-		
-          }
 		  
-		  .modal-dialog{margin-left:auto;
-		  margin-right:auto;}
-			
-          .column {
-            width: 100%;
-            margin-top: 6px;
-            padding: 20px;
-            font-family: Helvetica, Arial, sans-serif;
-            color: black;
-          }
-
-          /* Clear floats after the columns */
-          .row:after {
-            content: "";
-            display: table;
-            clear: both;
-          }
-
-
+		  
 /*TEAM*/
 #title-team{
 	font-size:40px;
@@ -288,8 +214,6 @@ src: url('font/Raleway-Light.ttf') format('truetype');}
   background-image: url("images/cornice.jpg");
   background-size: cover;
 }
-
-
 
 /*-----HOMEPAGE------*/
 
@@ -330,11 +254,6 @@ src: url('font/Raleway-Light.ttf') format('truetype');}
 	color: white;
 	padding: 7%;
 }*/
-
-/*------------link------------------------*/
-.link-card-title :hover {
-  color:#7A1E07;}
-
 
 
 /*------------CARDS-QUERIES------------------------*/
@@ -447,7 +366,8 @@ width:100%;
     padding-left: 150px;
     padding-right: 150px;
     padding-top: 200px;
-    
+
+}
 
 .canto {
   margin-top: 50px;
@@ -459,12 +379,95 @@ width:100%;
 
 }
 
-/*.arrow {
-top: 5% !important;
-}*/
+
 
 
 .timeline-edizione{
   margin-top:20px;
 }
 
+
+
+/*------------link------------------------*/
+.link-card-title :hover {
+  color:#7A1E07;}
+
+
+
+
+
+
+
+
+/*------------TIME LINE EDITION-----------------------*/
+
+
+.timeline-buttom-ed{margin-top:10px;}
+
+
+
+		.timeline-buttom-ed{color: red; 
+		font-family:Raleway-Bold;
+		
+		}
+		
+		.timeline-buttom-ed:hover{color:yellow;}
+          #timeline-wrap{
+            margin-top:8%;
+            margin-bottom:6%;
+            margin-left: 10%;
+            margin-right: 10%;
+            position:relative;
+          }
+
+          #timeline{
+            height:1px;
+            width: 100%;
+            background-color: red;
+            position:relative;
+          }
+
+          #timeline-wrap p {
+			
+            color: red;
+            margin-top: -60%;
+			
+          }
+
+          .marker{
+            top:-25px;
+            line-height: 50px;
+            font-size: 12pt;
+            text-align: center;
+            position: absolute;
+            margin-left: -20px;
+	
+          }
+
+        
+
+          .m2{
+                left:30%
+          }
+
+          .m3{
+              left:45%
+          }
+
+          .m4{
+              left:70%
+          }
+
+          .m5{
+              left:90%
+            }
+
+          .mlast{
+              left:110%;
+			  
+          }
+
+ 
+/*------------PER VISUALIZZAZIONE EDIZIONI------------------------*/
+
+.container-edition{}
