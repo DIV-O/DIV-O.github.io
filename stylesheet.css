@@ -41,11 +41,9 @@ src: url('font/Questrial-Regular.ttf') format('truetype');}
 { font-family: CabinCondensed-SemiBold;
 src: url('font/ CabinCondensed-SemiBold.ttf') format('truetype');}
 
- @font-face
+@font-face
 { font-family: Graduate-Regular;
 src: url('font/Graduate-Regular.ttf') format('truetype');}
-
-
 
  @font-face
 { font-family:Raleway-Light;
@@ -406,16 +404,16 @@ width:100%;
 /*------------TIME LINE EDITION-----------------------*/
 
 
-.timeline-buttom-ed{margin-top:10px;}
+.timeline-button-ed{margin-top:10px;}
 
 
 
-		.timeline-buttom-ed{color: red; 
+		.timeline-button-ed{color: black; 
 		font-family:Raleway-Bold;
 		
 		}
 		
-		.timeline-buttom-ed:hover{color:yellow;}
+		.timeline-button-ed:hover{ color:#7A1E07;}
           #timeline-wrap{
             margin-top:8%;
             margin-bottom:6%;
@@ -427,7 +425,7 @@ width:100%;
           #timeline{
             height:1px;
             width: 100%;
-            background-color: red;
+            background-color: black;
             position:relative;
           }
 
@@ -470,8 +468,10 @@ width:100%;
               left:110%;
 			  
           }
-
+.input[type='radio']:after {background-color:black;}
+ input[type='radio']:checked:after {background-color:black;}
  
 /*------------PER VISUALIZZAZIONE EDIZIONI------------------------*/
 
-.container-edition{}
+.row p{font-family:Raleway-Light;}
+.row{margin-top:7%;}
