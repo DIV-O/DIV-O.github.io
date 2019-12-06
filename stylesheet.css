@@ -41,6 +41,10 @@ src: url('font/Questrial-Regular.ttf') format('truetype');}
 { font-family: CabinCondensed-SemiBold;
 src: url('font/ CabinCondensed-SemiBold.ttf') format('truetype');}
 
+ @font-face
+{ font-family: Graduate-Regular;
+src: url('font/Graduate-Regular.ttf') format('truetype');}
+
 
 
  @font-face
