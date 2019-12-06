@@ -1,0 +1,5209 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "undefined" ],
+    "baseIris" : [ "http://www.w3.org/2002/07/owl", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "http://divo.github.io" ],
+    "iri" : "http://divo.github.io/"
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "38",
+    "type" : "owl:Class"
+  }, {
+    "id" : "31",
+    "type" : "owl:Class"
+  }, {
+    "id" : "42",
+    "type" : "owl:Class"
+  }, {
+    "id" : "49",
+    "type" : "owl:Class"
+  }, {
+    "id" : "22",
+    "type" : "owl:Class"
+  }, {
+    "id" : "25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "9",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "41",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "17",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "52",
+    "type" : "owl:Class"
+  }, {
+    "id" : "20",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "32",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "65",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "47",
+    "type" : "owl:Class"
+  }, {
+    "id" : "37",
+    "type" : "owl:Class"
+  }, {
+    "id" : "15",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "2",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "34",
+    "type" : "owl:Class"
+  }, {
+    "id" : "39",
+    "type" : "owl:Class"
+  }, {
+    "id" : "55",
+    "type" : "owl:Class"
+  }, {
+    "id" : "45",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://divo.github.io/Cantica",
+    "baseIri" : "http://divo.github.io",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Cantica",
+      "undefined" : "Cantica"
+    },
+    "individuals" : [ {
+      "iri" : "http://divo.github.io/CanticaParadiso",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CanticaParadiso"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CanticaPurgatorio",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CanticaPurgatorio"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CanticaInferno",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CanticaInferno"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "This class describes the three cantiche into which the Divina Coomedia is divided: Inferno, Purgatorio, Paradiso."
+    },
+    "id" : "10",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "http://divo.github.io/Agent",
+    "baseIri" : "http://divo.github.io",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Agent",
+      "undefined" : "Agent"
+    },
+    "individuals" : [ {
+      "iri" : "http://divo.github.io/Dante",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Dante"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Dio",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Dio"
+      }
+    } ],
+    "subClasses" : [ "11", "12", "13" ],
+    "comment" : {
+      "undefined" : "This class allows you to describe people and characters (both real and fictional) related to Divina Commedia."
+    },
+    "id" : "1"
+  }, {
+    "iri" : "http://divo.github.io/Editor",
+    "baseIri" : "http://divo.github.io",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Editor",
+      "undefined" : "Editor"
+    },
+    "individuals" : [ {
+      "iri" : "http://divo.github.io/AntonioQuaglio",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "AntonioQuaglio"
+      }
+    }, {
+      "iri" : "http://divo.github.io/GiorgioInglese",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "GiorgioInglese"
+      }
+    }, {
+      "iri" : "http://divo.github.io/NatalinoSapegno",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "NatalinoSapegno"
+      }
+    }, {
+      "iri" : "http://divo.github.io/AnnaMariaChiavacciLeonardi",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "AnnaMariaChiavacciLeonardi"
+      }
+    }, {
+      "iri" : "http://divo.github.io/EmilioPasquini",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "EmilioPasquini"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "This class describes some of the modern editors of Divina Commedia."
+    },
+    "id" : "11",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://divo.github.io/RealPlace",
+    "baseIri" : "http://divo.github.io",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RealPlace",
+      "undefined" : "Real Place"
+    },
+    "individuals" : [ {
+      "iri" : "http://divo.github.io/Egypt",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Egypt"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Ravenna",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Ravenna"
+      }
+    }, {
+      "iri" : "http://divo.github.io/AdriaticCoast",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "AdriaticCoast"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "This class describes all the real places mentioned in the Divina Commedia."
+    },
+    "id" : "38",
+    "superClasses" : [ "39" ]
+  }, {
+    "iri" : "http://divo.github.io/LiteraryWork",
+    "baseIri" : "http://divo.github.io",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "LiteraryWork",
+      "undefined" : "Literary Work"
+    },
+    "individuals" : [ {
+      "iri" : "http://divo.github.io/VitaNuova",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "VitaNuova"
+      }
+    }, {
+      "iri" : "http://divo.github.io/VangeloSecondoMatteo",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "VangeloSecondoMatteo"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Convivio",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Convivio"
+      }
+    }, {
+      "iri" : "http://divo.github.io/DeAmore",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "DeAmore"
+      }
+    }, {
+      "iri" : "http://divo.github.io/DivinaCommedia",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "DivinaCommedia"
+      }
+    }, {
+      "iri" : "http://divo.github.io/HistoriarumAdversusPaganosLibriSeptem",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "HistoriarumAdversusPaganosLibriSeptem"
+      }
+    }, {
+      "iri" : "http://divo.github.io/AlCorGentilRempairaSempreAmore",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "AlCorGentilRempairaSempreAmore"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Tebaide",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Tebaide"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Metamorfosi",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Metamorfosi"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Eneide",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Eneide"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "This class describes all the literary works related to Divina Commedia."
+    },
+    "id" : "31",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "http://divo.github.io/ParadisoSoul",
+    "baseIri" : "http://divo.github.io",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ParadisoSoul",
+      "undefined" : "Soul of Paradiso"
+    },
+    "comment" : {
+      "undefined" : "This class describes the souls of people who are in heaven."
+    },
+    "id" : "42",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://divo.github.io/InfernoSoul",
+    "baseIri" : "http://divo.github.io",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "InfernoSoul",
+      "undefined" : "Soul of Inferno"
+    },
+    "individuals" : [ {
+      "iri" : "http://divo.github.io/PaoloSoul",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PaoloSoul"
+      }
+    }, {
+      "iri" : "http://divo.github.io/FrancescaSoul",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "FrancescaSoul"
+      }
+    }, {
+      "iri" : "http://divo.github.io/ParideSoul",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "ParideSoul"
+      }
+    }, {
+      "iri" : "http://divo.github.io/TristanoSoul",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "TristanoSoul"
+      }
+    }, {
+      "iri" : "http://divo.github.io/ElenaSoul",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "ElenaSoul"
+      }
+    }, {
+      "iri" : "http://divo.github.io/DidoneSoul",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "DidoneSoul"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SemiramideSoul",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SemiramideSoul"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CleopatraSoul",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CleopatraSoul"
+      }
+    }, {
+      "iri" : "http://divo.github.io/AchilleSoul",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "AchilleSoul"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Lussuriosi",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Lussuriosi"
+      }
+    }, {
+      "iri" : "http://divo.github.io/VirgilioSoul",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "VirgilioSoul"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "This class describes the souls of people who are in the hell."
+    },
+    "id" : "49",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://divo.github.io/Style",
+    "baseIri" : "http://divo.github.io",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Style",
+      "undefined" : "Style"
+    },
+    "individuals" : [ {
+      "iri" : "http://divo.github.io/DolceStilNovo",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "DolceStilNovo"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "This class describe the style to which a literary work belongs."
+    },
+    "id" : "22",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "http://divo.github.io/LiteraryReference",
+    "baseIri" : "http://divo.github.io",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "LiteraryReference",
+      "undefined" : "Literary Reference"
+    },
+    "individuals" : [ {
+      "iri" : "http://divo.github.io/DeVulgariEloquentiaI,X,II",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "DeVulgariEloquentiaI,X,II"
+      }
+    }, {
+      "iri" : "http://divo.github.io/RimeCIII,36",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "RimeCIII,36"
+      }
+    }, {
+      "iri" : "http://divo.github.io/InfIII22",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "InfIII22"
+      }
+    }, {
+      "iri" : "http://divo.github.io/ParXVI15",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "ParXVI15"
+      }
+    }, {
+      "iri" : "http://divo.github.io/AenVI427",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "AenVI427"
+      }
+    }, {
+      "iri" : "http://divo.github.io/OrlandoFuriosoI1",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "OrlandoFuriosoI1"
+      }
+    }, {
+      "iri" : "http://divo.github.io/AenVI567",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "AenVI567"
+      }
+    }, {
+      "iri" : "http://divo.github.io/VitaNuovaXXIII",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "VitaNuovaXXIII"
+      }
+    }, {
+      "iri" : "http://divo.github.io/AenVI441",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "AenVI441"
+      }
+    }, {
+      "iri" : "http://divo.github.io/MetamorfosiIV439-440",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "MetamorfosiIV439-440"
+      }
+    }, {
+      "iri" : "http://divo.github.io/AlCorGentilRempairaSempreAmore11",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "AlCorGentilRempairaSempreAmore11"
+      }
+    }, {
+      "iri" : "http://divo.github.io/AenIV169-170",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "AenIV169-170"
+      }
+    }, {
+      "iri" : "http://divo.github.io/AenII10-12",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "AenII10-12"
+      }
+    }, {
+      "iri" : "http://divo.github.io/AenV213-217",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "AenV213-217"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PurgXXVI118",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PurgXXVI118"
+      }
+    }, {
+      "iri" : "http://divo.github.io/AenIV552",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "AenIV552"
+      }
+    }, {
+      "iri" : "http://divo.github.io/InfIV151",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "InfIV151"
+      }
+    }, {
+      "iri" : "http://divo.github.io/InfXXXIII9",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "InfXXXIII9"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Matteo7,13",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Matteo7,13"
+      }
+    }, {
+      "iri" : "http://divo.github.io/AenI393",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "AenI393"
+      }
+    }, {
+      "iri" : "http://divo.github.io/DeAmoreII8RegXXVI",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "DeAmoreII8RegXXVI"
+      }
+    }, {
+      "iri" : "http://divo.github.io/ConsPhilII4,2",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "ConsPhilII4,2"
+      }
+    }, {
+      "iri" : "http://divo.github.io/InfI60",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "InfI60"
+      }
+    }, {
+      "iri" : "http://divo.github.io/AenVI213-217",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "AenVI213-217"
+      }
+    }, {
+      "iri" : "http://divo.github.io/TebaideV13-14",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "TebaideV13-14"
+      }
+    }, {
+      "iri" : "http://divo.github.io/AenIII492",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "AenIII492"
+      }
+    }, {
+      "iri" : "http://divo.github.io/VitaNuovaXIX27",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "VitaNuovaXIX27"
+      }
+    }, {
+      "iri" : "http://divo.github.io/AenVI126-127",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "AenVI126-127"
+      }
+    }, {
+      "iri" : "http://divo.github.io/AenX264-266",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "AenX264-266"
+      }
+    }, {
+      "iri" : "http://divo.github.io/AlCorGentilRempairaSempreAmore21",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "AlCorGentilRempairaSempreAmore21"
+      }
+    }, {
+      "iri" : "http://divo.github.io/DelleStorieContraIPaganiI4",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "DelleStorieContraIPaganiI4"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PurgXXIV66",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PurgXXIV66"
+      }
+    }, {
+      "iri" : "http://divo.github.io/InfXIII22",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "InfXIII22"
+      }
+    }, {
+      "iri" : "http://divo.github.io/AenVI432-433",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "AenVI432-433"
+      }
+    }, {
+      "iri" : "http://divo.github.io/VitaNuovaXX1",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "VitaNuovaXX1"
+      }
+    }, {
+      "iri" : "http://divo.github.io/InfIV9",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "InfIV9"
+      }
+    }, {
+      "iri" : "http://divo.github.io/ConvIIII3",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "ConvIIII3"
+      }
+    }, {
+      "iri" : "http://divo.github.io/InfIII95-96",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "InfIII95-96"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "This class describes the references related to Divina Commedia."
+    },
+    "id" : "25",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "http://divo.github.io/Edition",
+    "baseIri" : "http://divo.github.io",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Edition",
+      "undefined" : "Edition"
+    },
+    "individuals" : [ {
+      "iri" : "http://divo.github.io/ChiavacciLeonardiInfEdition",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "ChiavacciLeonardiInfEdition"
+      }
+    }, {
+      "iri" : "http://divo.github.io/ChiavacciLeonardiEdition",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "ChiavacciLeonardiEdition"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SapegnoEdition",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SapegnoEdition"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IngleseEdition",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IngleseEdition"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SapegnoInfEdition",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SapegnoInfEdition"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PasquiniQuaglioInfEdition",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PasquiniQuaglioInfEdition"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PasquiniQuaglioEdition",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PasquiniQuaglioEdition"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IngleseInfEdition",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IngleseInfEdition"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "This class describes the editions of the Divina Commedia."
+    },
+    "id" : "29",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "http://divo.github.io/RealPerson",
+    "baseIri" : "http://divo.github.io",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RealPerson",
+      "undefined" : "Real Person"
+    },
+    "individuals" : [ {
+      "iri" : "http://divo.github.io/PublioOvidioNasone",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PublioOvidioNasone"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CleopatraTeaFilopatore",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CleopatraTeaFilopatore"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SanMatteo",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SanMatteo"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PublioPapinioStazio",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PublioPapinioStazio"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PaoloOrosio",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PaoloOrosio"
+      }
+    }, {
+      "iri" : "http://divo.github.io/GuidoGuinizzelli",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "GuidoGuinizzelli"
+      }
+    }, {
+      "iri" : "http://divo.github.io/AndreaCappellano",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "AndreaCappellano"
+      }
+    }, {
+      "iri" : "http://divo.github.io/GianciottoMalatesta",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "GianciottoMalatesta"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PaoloMalatesta",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PaoloMalatesta"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PublioVirgilioMarone",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PublioVirgilioMarone"
+      }
+    }, {
+      "iri" : "http://divo.github.io/FrancescaDaPolenta",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "FrancescaDaPolenta"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "This class describes all the people related to Divina Commedia that really existed."
+    },
+    "id" : "12",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "4",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "9",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "41",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "17",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://divo.github.io/PurgatorioSoul",
+    "baseIri" : "http://divo.github.io",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PurgatorioSoul",
+      "undefined" : "Soul of Purgatorio"
+    },
+    "comment" : {
+      "undefined" : "This class describes the souls of people who are in Purgatorio."
+    },
+    "id" : "52",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "20",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "32",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "65",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://divo.github.io/Demon",
+    "baseIri" : "http://divo.github.io",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Demon",
+      "undefined" : "Demon"
+    },
+    "individuals" : [ {
+      "iri" : "http://divo.github.io/Minosse",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Minosse"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "This class allows you to describe the demons of the hell."
+    },
+    "id" : "47",
+    "superClasses" : [ "13" ]
+  }, {
+    "iri" : "http://divo.github.io/Commentary",
+    "baseIri" : "http://divo.github.io",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Commentary",
+      "undefined" : "Commentary"
+    },
+    "individuals" : [ {
+      "iri" : "http://divo.github.io/IedLine113",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine113"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine112",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine112"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine117",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine117"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine116",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine116"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine114",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine114"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine118",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine118"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine40-43",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine40-43"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine102",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine102"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine142",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine142"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine101",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine101"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine100",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine100"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine140",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine140"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine106",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine106"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine105",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine105"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine104",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine104"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine109",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine109"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine108",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine108"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine107",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine107"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine135",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine135"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine130",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine130"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine134",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine134"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine131",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine131"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine109",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine109"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine28",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine28"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine133",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine133"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine132",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine132"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine139",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine139"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine138",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine138"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine137",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine137"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine136",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine136"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine138",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine138"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine22",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine22"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine23",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine23"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine20",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine20"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine21",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine21"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine137",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine137"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine27",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine27"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine135",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine135"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine132",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine132"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine133",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine133"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine25",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine25"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine129",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine129"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine100",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine100"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine102",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine102"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine101",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine101"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine104",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine104"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine103",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine103"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine106",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine106"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine108",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine108"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine107",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine107"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine19",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine19"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine120",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine120"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine18",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine18"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine128",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine128"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine127",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine127"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine126",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine126"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine11",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine11"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine12",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine12"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine128",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine128"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine125",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine125"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine126",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine126"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine129",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine129"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine10",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine10"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine15",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine15"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine123",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine123"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine16",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine16"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine124",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine124"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine64-65",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine64-65"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine61-62",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine61-62"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine118",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine118"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine119",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine119"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine110",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine110"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine113",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine113"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine112",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine112"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine121-123",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine121-123"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine114",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine114"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine117",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine117"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine50-51",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine50-51"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine119",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine119"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine118",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine118"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine40-42",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine40-42"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine10",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine10"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine15",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine15"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine16",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine16"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine18",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine18"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine11",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine11"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine12",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine12"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine19",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine19"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine20",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine20"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine21",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine21"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine28",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine28"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine29",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine29"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine22",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine22"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine25",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine25"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine88",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine88"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine89",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine89"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine86",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine86"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine87",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine87"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine91",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine91"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine109",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine109"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine30",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine30"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine92",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine92"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine107",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine107"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine31",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine31"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine90",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine90"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine108",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine108"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine32",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine32"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine95",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine95"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine96",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine96"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine37",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine37"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine101",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine101"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine102",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine102"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine38",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine38"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine39",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine39"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine100",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine100"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine33",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine33"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine34",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine34"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine106",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine106"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine103",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine103"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine35",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine35"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine36",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine36"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine104",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine104"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine78",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine78"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine80",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine80"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine81",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine81"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine82",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine82"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine64-65",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine64-65"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine83",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine83"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine48",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine48"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine49",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine49"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine44",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine44"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine45",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine45"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine46",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine46"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine47",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine47"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine52",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine52"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine53",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine53"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine54",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine54"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine59",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine59"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine55",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine55"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine56",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine56"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine57",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine57"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine58",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine58"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine99",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine99"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine97",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine97"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine98",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine98"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine63",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine63"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine64",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine64"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine65",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine65"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine60",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine60"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine66",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine66"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine110-111",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine110-111"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine67",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine67"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine69",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine69"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine130-131",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine130-131"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine141",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine141"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine142",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine142"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine140",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine140"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine44",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine44"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine45",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine45"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine42",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine42"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine43",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine43"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine48",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine48"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine49",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine49"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine46",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine46"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine47",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine47"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine73",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine73"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine74",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine74"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine75",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine75"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine119-120",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine119-120"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine70",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine70"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine52",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine52"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine71",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine71"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine72",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine72"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine78",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine78"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine39",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine39"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine130",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine130"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine131",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine131"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine34",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine34"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine31",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine31"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine32",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine32"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine37",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine37"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine38",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine38"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine86",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine86"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine87",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine87"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine40",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine40"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine80",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine80"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine81",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine81"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine82",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine82"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine83",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine83"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine134",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine134"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine135",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine135"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine132",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine132"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine133",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine133"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine88",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine88"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine138",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine138"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine142",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine142"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine141",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine141"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine89",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine89"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine140",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine140"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine136",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine136"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine137",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine137"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine120",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine120"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine67",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine67"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine64",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine64"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine65",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine65"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine90",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine90"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine124-125",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine124-125"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine69",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine69"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine96",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine96"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine70",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine70"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine129",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine129"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine97",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine97"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine98",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine98"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine91",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine91"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine74",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine74"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine92",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine92"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine93",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine93"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine71",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine71"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine72",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine72"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine123",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine123"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine121",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine121"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine99",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine99"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine127",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine127"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine128",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine128"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine126",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine126"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine56",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine56"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine53",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine53"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine54",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine54"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine59",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine59"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine57",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine57"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine118",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine118"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine119",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine119"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine63",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine63"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine60",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine60"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine61",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine61"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine112",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine112"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine113",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine113"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine110",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine110"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine111",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine111"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine116",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine116"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine117",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine117"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine114",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine114"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine115",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine115"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine67",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine67"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine66",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine66"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine69",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine69"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine6",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine6"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine7",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine7"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine4",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine4"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine5",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine5"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine2",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine2"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine3",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine3"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine1",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine1"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine63",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine63"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine8",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine8"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine9",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine9"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine60",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine60"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine78",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine78"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine56-57",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine56-57"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine79",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine79"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine74",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine74"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine75",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine75"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine70",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine70"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine72",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine72"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine71",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine71"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine89",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine89"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine88",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine88"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine99",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine99"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine97",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine97"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine96",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine96"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine93",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine93"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine91",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine91"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine92",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine92"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine90",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine90"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine85",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine85"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine84",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine84"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine87",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine87"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine86",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine86"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine81",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine81"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine80",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine80"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine83",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine83"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine82",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine82"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine1",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine1"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine99",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine99"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine88",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine88"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine89",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine89"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine86",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine86"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine7",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine7"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine87",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine87"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine6",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine6"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine84",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine84"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine9",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine9"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine85",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine85"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine3",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine3"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine82",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine82"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine83",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine83"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine2",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine2"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine80",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine80"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine5",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine5"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine4",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine4"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine81",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine81"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine90",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine90"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine96",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine96"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine98",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine98"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine97",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine97"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine92",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine92"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine91",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine91"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine79",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine79"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine77",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine77"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine78",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine78"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine75",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine75"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine73",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine73"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine74",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine74"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine72",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine72"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine70",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine70"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine68",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine68"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine69",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine69"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine66",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine66"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine67",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine67"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine62",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine62"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine63",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine63"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine60",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine60"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine61",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine61"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine59",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine59"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine58",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine58"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine55",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine55"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine53",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine53"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine54",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine54"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine51",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine51"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine52",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine52"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine48",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine48"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine49",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine49"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine46",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine46"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine47",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine47"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine44",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine44"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine45",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine45"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine43",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine43"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine39",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine39"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine37",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine37"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine38",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine38"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine35",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine35"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine36",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine36"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine33",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine33"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine34",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine34"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine31",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine31"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine32",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine32"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine30",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine30"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine28",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine28"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine29",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine29"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine27",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine27"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine24",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine24"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine25",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine25"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine22",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine22"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine20",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine20"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine21",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine21"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine19",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine19"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine18",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine18"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine15",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine15"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine16",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine16"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine11",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine11"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine12",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine12"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine10",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine10"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine16",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine16"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine15",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine15"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine18",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine18"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine12",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine12"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine11",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine11"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine14",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine14"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine19",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine19"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine10",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine10"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine56-57",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine56-57"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine27",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine27"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine28",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine28"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine22",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine22"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine25",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine25"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine116",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine116"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine117",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine117"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine114",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine114"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine112",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine112"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine113",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine113"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine110",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine110"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine109",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine109"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine120",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine120"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine107",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine107"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine121",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine121"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine108",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine108"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine124",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine124"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine5",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine5"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine123",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine123"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine4",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine4"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine126",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine126"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine21",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine21"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine7",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine7"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine125",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine125"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine20",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine20"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine6",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine6"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine1",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine1"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine128",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine128"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine127",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine127"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine3",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine3"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine2",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine2"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine129",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine129"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine38",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine38"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine37",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine37"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine39",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine39"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine34",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine34"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine9",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine9"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine8",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine8"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine35",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine35"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine105",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine105"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine106",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine106"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine103",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine103"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine104",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine104"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine101",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine101"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine102",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine102"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine100",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine100"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine130",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine130"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine133",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine133"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine132",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine132"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine135",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine135"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine137",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine137"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine32",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine32"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine31",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine31"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine94-95",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine94-95"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine138",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine138"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine49",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine49"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine9",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine9"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine48",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine48"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine8",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine8"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine45",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine45"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine44",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine44"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine47",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine47"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine46",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine46"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine1",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine1"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine3",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine3"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine2",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine2"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine5",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine5"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine4",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine4"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine7",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine7"
+      }
+    }, {
+      "iri" : "http://divo.github.io/IedLine6",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "IedLine6"
+      }
+    }, {
+      "iri" : "http://divo.github.io/SedLine140",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "SedLine140"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine41",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine41"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine40",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine40"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine43",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine43"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine42",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine42"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine59",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine59"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine58",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine58"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CLedLine124-125",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CLedLine124-125"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine61-62",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine61-62"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine52",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine52"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine54",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine54"
+      }
+    }, {
+      "iri" : "http://divo.github.io/PQedLine53",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "PQedLine53"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "This class describes the commentary apparatus, divided by lines, of the editions of the Divina Commedia."
+    },
+    "id" : "37",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "15",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "2",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://divo.github.io/Line",
+    "baseIri" : "http://divo.github.io",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Line",
+      "undefined" : "Line"
+    },
+    "individuals" : [ {
+      "iri" : "http://divo.github.io/Line67",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line67"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line66",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line66"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line69",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line69"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line68",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line68"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line2",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line2"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line3",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line3"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line1",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line1"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line6",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line6"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line7",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line7"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line4",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line4"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line5",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line5"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line63",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line63"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line62",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line62"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line65",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line65"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line64",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line64"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line61",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line61"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line60",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line60"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line59",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line59"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line56",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line56"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line55",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line55"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line58",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line58"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line57",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line57"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line52",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line52"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line51",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line51"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line54",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line54"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line53",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line53"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line50",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line50"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line89",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line89"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line88",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line88"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line129",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line129"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line136",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line136"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line137",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line137"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line138",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line138"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line139",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line139"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line132",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line132"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line133",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line133"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line134",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line134"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line135",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line135"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line85",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line85"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line84",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line84"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line87",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line87"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line130",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line130"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line131",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line131"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line86",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line86"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line81",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line81"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line80",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line80"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line83",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line83"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line82",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line82"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line78",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line78"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line77",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line77"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line79",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line79"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line74",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line74"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line73",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line73"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line140",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line140"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line141",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line141"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line76",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line76"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line75",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line75"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line142",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line142"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line70",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line70"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line72",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line72"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line71",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line71"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line27",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line27"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line26",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line26"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line29",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line29"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line28",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line28"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line23",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line23"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line22",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line22"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line25",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line25"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line24",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line24"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line107",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line107"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line108",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line108"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line109",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line109"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line114",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line114"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line115",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line115"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line116",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line116"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line117",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line117"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line110",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line110"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line111",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line111"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line112",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line112"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line113",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line113"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line21",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line21"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line20",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line20"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line16",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line16"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line15",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line15"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line18",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line18"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line17",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line17"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line12",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line12"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line99",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line99"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line11",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line11"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line14",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line14"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line13",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line13"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line118",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line118"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line119",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line119"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line19",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line19"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line125",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line125"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line126",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line126"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line90",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line90"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line127",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line127"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line128",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line128"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line121",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line121"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line122",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line122"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line123",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line123"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line124",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line124"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line96",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line96"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line95",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line95"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line98",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line98"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line10",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line10"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line120",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line120"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line97",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line97"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line92",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line92"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line91",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line91"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line94",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line94"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line93",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line93"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line49",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line49"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line48",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line48"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line45",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line45"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line44",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line44"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line47",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line47"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line46",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line46"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line41",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line41"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line40",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line40"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line43",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line43"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line42",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line42"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line38",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line38"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line37",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line37"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line39",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line39"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line34",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line34"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line33",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line33"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line36",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line36"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line35",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line35"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line8",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line8"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line9",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line9"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line103",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line103"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line104",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line104"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line105",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line105"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line106",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line106"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line100",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line100"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line101",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line101"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line102",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line102"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line30",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line30"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line32",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line32"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Line31",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Line31"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "This class describes the lines of each canto of the Divina Commedia."
+    },
+    "id" : "27",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "http://divo.github.io/Soul",
+    "baseIri" : "http://divo.github.io",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Soul",
+      "undefined" : "Soul"
+    },
+    "subClasses" : [ "49", "42", "52" ],
+    "comment" : {
+      "undefined" : "This class describes all the souls related to Divina Commedia. It includes the souls of the \"Paradiso\", \"Purgatorio\" and \"Inferno\"."
+    },
+    "id" : "6",
+    "superClasses" : [ "13" ]
+  }, {
+    "iri" : "http://divo.github.io/Canto",
+    "baseIri" : "http://divo.github.io",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Canto",
+      "undefined" : "Canto"
+    },
+    "individuals" : [ {
+      "iri" : "http://divo.github.io/InfV",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "InfV"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "This class describes all the canti in which a cantica is composed."
+    },
+    "id" : "34",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "http://divo.github.io/Place",
+    "baseIri" : "http://divo.github.io",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Place",
+      "undefined" : "Place"
+    },
+    "subClasses" : [ "38", "55" ],
+    "comment" : {
+      "undefined" : "This class describes all the places, both fictional and real, related to Divina Commedia."
+    },
+    "id" : "39"
+  }, {
+    "iri" : "http://divo.github.io/FictionalPlace",
+    "baseIri" : "http://divo.github.io",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FictionalPlace",
+      "undefined" : "Fictional Place"
+    },
+    "individuals" : [ {
+      "iri" : "http://divo.github.io/CerchioPrimo",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CerchioPrimo"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Inferno",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Inferno"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Caina",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Caina"
+      }
+    }, {
+      "iri" : "http://divo.github.io/CerchioSecondo",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "CerchioSecondo"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "This class describes all the fictional places mentioned by Dante in the Divina Commedia."
+    },
+    "id" : "55",
+    "superClasses" : [ "39" ]
+  }, {
+    "iri" : "http://divo.github.io/Angel",
+    "baseIri" : "http://divo.github.io",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Angel",
+      "undefined" : "Angel"
+    },
+    "comment" : {
+      "undefined" : "This class allows you to describe the angels of the heaven."
+    },
+    "id" : "45",
+    "superClasses" : [ "13" ]
+  }, {
+    "iri" : "http://divo.github.io/FictionalCharacter",
+    "baseIri" : "http://divo.github.io",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FictionalCharacter",
+      "undefined" : "Fictional Character"
+    },
+    "individuals" : [ {
+      "iri" : "http://divo.github.io/Sicheo",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Sicheo"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Lancillotto",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Lancillotto"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Nino",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Nino"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Achille",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Achille"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Galeotto",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Galeotto"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Tristano",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Tristano"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Didone",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Didone"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Semiramide",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Semiramide"
+      }
+    }, {
+      "iri" : "http://divo.github.io/Paride",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "Paride"
+      }
+    }, {
+      "iri" : "http://divo.github.io/ElenaDiTroia",
+      "baseIri" : "http://divo.github.io",
+      "labels" : {
+        "IRI-based" : "ElenaDiTroia"
+      }
+    } ],
+    "subClasses" : [ "47", "45", "6" ],
+    "comment" : {
+      "undefined" : "This class describes the fictional characters related to DIvina Commedia. In particular, it includes angels, demons and the souls of the people."
+    },
+    "id" : "13",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://divo.github.io/LiteraryElement",
+    "baseIri" : "http://divo.github.io",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "LiteraryElement",
+      "undefined" : "Literary Element"
+    },
+    "subClasses" : [ "34", "29", "37", "31", "10", "22", "27", "25" ],
+    "comment" : {
+      "undefined" : "This class describes all the literary elements that we took in consideration to analyze a Canto of the Divina Commedia."
+    },
+    "id" : "8"
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "3",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "5",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "7",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "14",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "16",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "19",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "21",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "23",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "24",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "26",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "28",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "30",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "33",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "35",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "36",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "40",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "43",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "44",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "46",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "48",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "50",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "51",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "53",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "54",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "56",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "57",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "18",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "58",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "59",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "60",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "61",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "62",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "63",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "64",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "66",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "67",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "68",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "69",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "70",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "71",
+    "type" : "owl:objectProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://divo.github.io/appears_in_text_as",
+    "baseIri" : "http://divo.github.io",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "appears_in_text_as",
+      "undefined" : "Appears in text as"
+    },
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "This data property allows you to link an agent to the name by which he/she is named in the Divina Commedia. In particular we refer only to the proper name and not to the periphrasis that individuates a character."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "0"
+  }, {
+    "iri" : "http://divo.github.io/has_name",
+    "baseIri" : "http://divo.github.io",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "has_name",
+      "undefined" : "Has name"
+    },
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "This data property allows you to link an agent to the name by which he/she is most widely known."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "3"
+  }, {
+    "iri" : "http://divo.github.io/has_inspired",
+    "baseIri" : "http://divo.github.io",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "has_inspired",
+      "undefined" : "Has inspired"
+    },
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "This object property allows you to describe the relations between the people that have inspired the creation of the souls and the souls themselves."
+    },
+    "attributes" : [ "object" ],
+    "id" : "5"
+  }, {
+    "iri" : "http://divo.github.io/has_title",
+    "baseIri" : "http://divo.github.io",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "has_title",
+      "undefined" : "Has title"
+    },
+    "domain" : "8",
+    "comment" : {
+      "undefined" : "This data property allows you to link a literary element to its title."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "7"
+  }, {
+    "iri" : "http://divo.github.io/content",
+    "baseIri" : "http://divo.github.io",
+    "range" : "15",
+    "label" : {
+      "IRI-based" : "content",
+      "undefined" : "Content"
+    },
+    "domain" : "8",
+    "comment" : {
+      "undefined" : "This data property allows you to link a literary element to its textual content."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "14"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "17",
+    "label" : {
+      "IRI-based" : "topObjectProperty"
+    },
+    "domain" : "17",
+    "subproperty" : [ "18" ],
+    "attributes" : [ "external", "object" ],
+    "id" : "16"
+  }, {
+    "iri" : "http://divo.github.io/identifier",
+    "baseIri" : "http://divo.github.io",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "identifier",
+      "undefined" : "Identifier"
+    },
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "This data property allows you to link an agent to its viaf and/or dbpedia identifier."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "19"
+  }, {
+    "range" : "8",
+    "domain" : "22",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "21"
+  }, {
+    "range" : "8",
+    "domain" : "10",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "23"
+  }, {
+    "range" : "8",
+    "domain" : "25",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "24"
+  }, {
+    "range" : "8",
+    "domain" : "27",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "26"
+  }, {
+    "range" : "8",
+    "domain" : "29",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "28"
+  }, {
+    "iri" : "http://divo.github.io/has_number_of_canti",
+    "baseIri" : "http://divo.github.io",
+    "range" : "32",
+    "label" : {
+      "IRI-based" : "has_number_of_canti",
+      "undefined" : "Has number of canti"
+    },
+    "domain" : "31",
+    "comment" : {
+      "undefined" : "This data property allows you to express the number of canti of a cantica."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "30"
+  }, {
+    "range" : "8",
+    "domain" : "34",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "33"
+  }, {
+    "range" : "8",
+    "domain" : "31",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "35"
+  }, {
+    "range" : "8",
+    "domain" : "37",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "36"
+  }, {
+    "iri" : "http://divo.github.io/wrote_in",
+    "baseIri" : "http://divo.github.io",
+    "range" : "41",
+    "label" : {
+      "IRI-based" : "wrote_in",
+      "undefined" : "Wrote in"
+    },
+    "domain" : "31",
+    "comment" : {
+      "undefined" : "This data property allows you to express the year (or range of years) in which a literary work has been written."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "40"
+  }, {
+    "iri" : "http://divo.github.io/has_literary_style",
+    "baseIri" : "http://divo.github.io",
+    "range" : "22",
+    "label" : {
+      "IRI-based" : "has_literary_style",
+      "undefined" : "Has literary style"
+    },
+    "domain" : "31",
+    "comment" : {
+      "undefined" : "This object property allows you to link a literary work to its style."
+    },
+    "attributes" : [ "object" ],
+    "id" : "43"
+  }, {
+    "range" : "13",
+    "domain" : "45",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "44"
+  }, {
+    "range" : "13",
+    "domain" : "47",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "46"
+  }, {
+    "iri" : "http://divo.github.io/classified_as",
+    "baseIri" : "http://divo.github.io",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "classified_as",
+      "undefined" : "Classified as"
+    },
+    "domain" : "6",
+    "comment" : {
+      "undefined" : "This object property allows you to describe the classification of the souls that are in the Inferno, Purgatorio and Paradiso."
+    },
+    "attributes" : [ "object" ],
+    "id" : "48"
+  }, {
+    "range" : "13",
+    "domain" : "6",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "50"
+  }, {
+    "range" : "6",
+    "domain" : "52",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "51"
+  }, {
+    "range" : "6",
+    "domain" : "42",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "53"
+  }, {
+    "range" : "39",
+    "domain" : "55",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "54"
+  }, {
+    "range" : "39",
+    "domain" : "38",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "56"
+  }, {
+    "range" : "1",
+    "domain" : "12",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "57"
+  }, {
+    "iri" : "http://divo.github.io/has_line",
+    "baseIri" : "http://divo.github.io",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "has_line",
+      "undefined" : "Has line"
+    },
+    "superproperty" : [ "16" ],
+    "domain" : "8",
+    "comment" : {
+      "undefined" : "This object property allows you to link a Canto to its lines."
+    },
+    "attributes" : [ "object" ],
+    "id" : "18"
+  }, {
+    "range" : "6",
+    "domain" : "49",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "58"
+  }, {
+    "range" : "1",
+    "domain" : "13",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "59"
+  }, {
+    "iri" : "http://divo.github.io/related_to",
+    "baseIri" : "http://divo.github.io",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "related_to",
+      "undefined" : "Related to"
+    },
+    "domain" : "27",
+    "comment" : {
+      "undefined" : "This object property allows you to link a line to other related literary works and  lines of other Canti  of the Divina Commendia,"
+    },
+    "attributes" : [ "object" ],
+    "id" : "60"
+  }, {
+    "iri" : "http://divo.github.io/has_commentary",
+    "baseIri" : "http://divo.github.io",
+    "range" : "37",
+    "label" : {
+      "IRI-based" : "has_commentary",
+      "undefined" : "Has commentary"
+    },
+    "domain" : "27",
+    "comment" : {
+      "undefined" : "This object property allows you to link a line to its commentary apparatus."
+    },
+    "attributes" : [ "object" ],
+    "id" : "61"
+  }, {
+    "iri" : "http://divo.github.io/created_by",
+    "baseIri" : "http://divo.github.io",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "created_by",
+      "undefined" : "Created by"
+    },
+    "domain" : "8",
+    "comment" : {
+      "undefined" : "This object property allows you to link a litarary work to its author."
+    },
+    "attributes" : [ "object" ],
+    "id" : "62"
+  }, {
+    "iri" : "http://divo.github.io/refers_to",
+    "baseIri" : "http://divo.github.io",
+    "range" : "39",
+    "label" : {
+      "IRI-based" : "refers_to",
+      "undefined" : "Refers to"
+    },
+    "domain" : "27",
+    "comment" : {
+      "undefined" : "This object property allows you to link a line to the places it refers to."
+    },
+    "attributes" : [ "object" ],
+    "id" : "63"
+  }, {
+    "iri" : "http://divo.github.io/contains",
+    "baseIri" : "http://divo.github.io",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "contains",
+      "undefined" : "Contains"
+    },
+    "domain" : "8",
+    "comment" : {
+      "undefined" : "This object property allows you to link the major structure  with its subparts."
+    },
+    "attributes" : [ "object" ],
+    "id" : "64"
+  }, {
+    "range" : "1",
+    "domain" : "11",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "66"
+  }, {
+    "iri" : "http://divo.github.io/is_part_of",
+    "baseIri" : "http://divo.github.io",
+    "range" : "29",
+    "label" : {
+      "IRI-based" : "is_part_of",
+      "undefined" : "Is part of"
+    },
+    "domain" : "37",
+    "comment" : {
+      "undefined" : "This object property allows you to link the commentary to its edition."
+    },
+    "attributes" : [ "object" ],
+    "id" : "67"
+  }, {
+    "iri" : "http://divo.github.io/has_number_of_lines",
+    "baseIri" : "http://divo.github.io",
+    "range" : "65",
+    "label" : {
+      "IRI-based" : "has_number_of_lines",
+      "undefined" : "Has number of lines"
+    },
+    "domain" : "34",
+    "comment" : {
+      "undefined" : "This data property allows you to express the number of lines of a canto."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "68"
+  }, {
+    "iri" : "http://divo.github.io/was_inspired_by",
+    "baseIri" : "http://divo.github.io",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "was_inspired_by",
+      "undefined" : "Was inspired by"
+    },
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "This property allows you to connect people's souls with the characters they are inspired by."
+    },
+    "attributes" : [ "object" ],
+    "id" : "69"
+  }, {
+    "iri" : "http://divo.github.io/related_character",
+    "baseIri" : "http://divo.github.io",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "related_character",
+      "undefined" : "Related character"
+    },
+    "domain" : "27",
+    "comment" : {
+      "undefined" : "This object property allows you to link a line to the characters it refers to."
+    },
+    "attributes" : [ "object" ],
+    "id" : "70"
+  }, {
+    "iri" : "http://divo.github.io/has_edition",
+    "baseIri" : "http://divo.github.io",
+    "range" : "29",
+    "label" : {
+      "IRI-based" : "has_edition",
+      "undefined" : "Has edition"
+    },
+    "domain" : "31",
+    "comment" : {
+      "undefined" : "This object property allows you to link the Divina Commedia to its editions."
+    },
+    "attributes" : [ "object" ],
+    "id" : "71"
+  } ]
+}
