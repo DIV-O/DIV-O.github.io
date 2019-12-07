@@ -479,7 +479,7 @@ width:100%;
             position: absolute;
           }
 
-        .mfirst {left: -10%; }
+        .mfirst {left: -12%; }
 
           .m2{
                 left:18.5%
@@ -604,10 +604,9 @@ padding-bottom:30px;}
  margin-right:70px;
  text-align:justify;
  margin-bottom:80px;}
-
-
+<<<<<<< HEAD
  .container-documentation li{font-family:Raleway-Light;}
-
+=======
  .container-documentation li{font-family:Raleway-Light;}
  
  /* TEAM */
