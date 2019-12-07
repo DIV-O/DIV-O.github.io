@@ -448,10 +448,13 @@ width:100%;
 		.timeline-button-ed{
 		font-family:Raleway-Bold;
 		font-size:16px;
-		
-		
-		}
-		
+		color:black;
+			}
+	
+.timeline-button-ed:hover {color: #C93A16;
+
+}	
+
 
           #timeline-wrap{
             margin-top:5%;
@@ -459,6 +462,7 @@ width:100%;
             margin-left: 15%;
             margin-right: 15%;
             position:relative;
+			
           }
 
 
@@ -467,6 +471,7 @@ width:100%;
             width: 100%;
             background-color: black;
             position: absolute;
+			
           }
 
          
@@ -477,9 +482,10 @@ width:100%;
             font-size: 12pt;
             text-align: center;
             position: absolute;
+			
           }
 
-        .mfirst {left: -12%; }
+        .mfirst {left: -10%; }
 
           .m2{
                 left:18.5%
@@ -495,6 +501,7 @@ width:100%;
 
           .m5{
               left: 96%;
+			
             }
 
 
@@ -539,6 +546,7 @@ font-size:15px;}
   position: relative;
   background-color: inherit;
   width: 50%;
+  
 }
 
 /* The circles on the timeline */
@@ -564,6 +572,7 @@ font-size:15px;}
 .right {
   left: 29.5%;
   margin-top: 50px;
+  
 }
 
 
