@@ -222,8 +222,10 @@ src: url('font/Raleway-Light.ttf') format('truetype');}
 
 .card-title {
 	padding-bottom: 20px;
-	font-size: 50px;
-	font-family: Humanistic;}
+	font-size: 35px;
+	font-family:Raleway-Light;
+   }
+
 
 
 .homepage {
