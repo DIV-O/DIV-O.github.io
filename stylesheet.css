@@ -504,7 +504,8 @@ width:100%;
  
 /*------------PER VISUALIZZAZIONE EDIZIONI------------------------*/
 
-.row p{font-family:Raleway-Light;}
+.row p{font-family:Raleway-Light;
+font-size:15px;}
 .row{margin-top:7%;}
 
 
