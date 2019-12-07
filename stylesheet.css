@@ -220,38 +220,71 @@ src: url('font/Raleway-Light.ttf') format('truetype');}
 
 /*-----HOMEPAGE------*/
 
-.card-title {
-	padding-bottom: 20px;
-	font-size: 50px;
-	font-family: Humanistic;
-  color: #e1d669 !important; }
+.intro {
+  padding-right: 12%;
+  padding-top: 70px;
+  padding-left: 12%;
+}
 
+
+
+.card-title {
+  padding-top: 10px;
+	font-size: 30px;
+	font-family: Raleway-Bold;
+  font-weight: bold;
+   }
+
+
+#divo {font-size: 150px;
+  font-family:Graduate-Regular;
+  color:#e1d669;
+}
 
 .homepage {
 		background: url("images/sfondoprova.png") no-repeat center;
     margin-left: 4%;
     margin-right: 4%;
-    padding-bottom: 4%;
-    filter: grayscale(100%);
+    padding-top:10%;
+    padding-bottom:10%;
+    margin-bottom: 10%;
+}
 
+
+#desc {
+  padding-left: 30px;
+  font-family: Raleway-Light;
+  font-size: 20px;
 }
 
 
 .text-block {
 	text-align: center;
-	padding: 20%;
+	padding-left: 22%;
+  padding-right:20%;
+}
+
+.link-card-title {color:#e1d669;
+}
+  
+
+.link-card-title:hover {color:white;
+
 }
 	
 
-.card {
+
+.ombra {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 15px !important;
+
 }
 
 
-.card:hover {
-	background-color: rgba(233, 223, 209, 0.9) !important; 
-}
+.ombra:hover {
+	background-color: rgba(225, 214, 105, 0.85) !important;
+  }
+
 
 /*.intro {
 	background-color:#E0C5A7;
@@ -263,16 +296,19 @@ src: url('font/Raleway-Light.ttf') format('truetype');}
 
 /*------------CARDS-QUERIES------------------------*/
 
-.query-page-title{font-family: Raleway-Bold;
-color:#e1d669;
+.query-page-title{font-family: Graduate-Regular;
+color:black;
 text-align:center;
 font-size:75px;}
 
-.query-subtitle{font-family:Questrial-Regular;
+
+
+.query-subtitle{font-family: Raleway-Bold;
     font-size: 30px;
 	text-align:center;
 	font-weight:500;
 	margin-top:-15px;
+	color:#e1d669;
 	}
 
 .card-title-query{font-family:Raleway-Bold;
@@ -393,9 +429,9 @@ width:100%;
 
 
 
-/*------------link------------------------*/
-.link-card-title :hover {
-  color:#7A1E07;}
+/*------------link------------------------*/x
+
+
 
 
 
@@ -409,14 +445,13 @@ width:100%;
 
 
 
-		.timeline-button-ed{color: black; 
+		.timeline-button-ed{
 		font-family:Raleway-Bold;
 		font-size:16px;
 		
 		
 		}
 		
-		.timeline-button-ed:hover{ color:#7A1E07;}
 
           #timeline-wrap{
             margin-top:5%;
@@ -444,7 +479,7 @@ width:100%;
             position: absolute;
           }
 
-        .mfirst {left: -12%; }
+        .mfirst {left: -10%; }
 
           .m2{
                 left:18.5%
@@ -459,7 +494,7 @@ width:100%;
           }
 
           .m5{
-              left: 98%;
+              left: 96%;
             }
 
 
@@ -550,8 +585,9 @@ width:100%;
   
 /* DOCUMENTATION */
 
-.documentation-title{font-family: Raleway-Bold;
-color:#e1d669;
+.documentation-title{font-family: Graduate-Regular;
+color:black;
+
 text-align:center;
 font-size:75px;
 margin-top:30px;
@@ -559,8 +595,8 @@ padding-bottom:30px;}
 
 .subtitle-documentation{font-family:Questrial-Regular;
     font-size: 30px;
-	color:#D33C17;
-	font-weight:500;
+	color:#e1d669;
+	font-weight:600;
 	}
  
  .container-documentation p{font-family:Raleway-Light;}
@@ -568,6 +604,10 @@ padding-bottom:30px;}
  margin-right:70px;
  text-align:justify;
  margin-bottom:80px;}
+
+
+ .container-documentation li{font-family:Raleway-Light;}
+
  .container-documentation li{font-family:Raleway-Light;}
  
  /* TEAM */
@@ -622,3 +662,4 @@ height:auto;}
 
 .description-knowledgegraph  p {
   font-family:Raleway-Light;}
+>>>>>>> 51a0375e25307c737c9a488d9692d220e58b79a2
