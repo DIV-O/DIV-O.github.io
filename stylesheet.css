@@ -296,16 +296,19 @@ src: url('font/Raleway-Light.ttf') format('truetype');}
 
 /*------------CARDS-QUERIES------------------------*/
 
-.query-page-title{font-family: Raleway-Bold;
-color:#e1d669;
+.query-page-title{font-family: Graduate-Regular;
+color:black;
 text-align:center;
 font-size:75px;}
 
-.query-subtitle{font-family:Questrial-Regular;
+
+
+.query-subtitle{font-family: Raleway-Bold;
     font-size: 30px;
 	text-align:center;
 	font-weight:500;
 	margin-top:-15px;
+	color:#e1d669;
 	}
 
 .card-title-query{font-family:Raleway-Bold;
@@ -582,8 +585,9 @@ width:100%;
   
 /* DOCUMENTATION */
 
-.documentation-title{font-family: Raleway-Bold;
-color:#e1d669;
+.documentation-title{font-family: Graduate-Regular;
+color:black;
+
 text-align:center;
 font-size:75px;
 margin-top:30px;
@@ -591,8 +595,8 @@ padding-bottom:30px;}
 
 .subtitle-documentation{font-family:Questrial-Regular;
     font-size: 30px;
-	color:#D33C17;
-	font-weight:500;
+	color:#e1d669;
+	font-weight:600;
 	}
  
  .container-documentation p{font-family:Raleway-Light;}
