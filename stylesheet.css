@@ -569,3 +569,20 @@ padding-bottom:30px;}
  text-align:justify;
  margin-bottom:80px;}
  .container-documentation li{font-family:Raleway-Light;}
+ 
+ /* TEAM */
+ .team-container{text-align:center;
+ margin-bottom:30px;
+}
+ 
+ .description-team  p{font-family:Raleway-Light;}
+ .description-team{margin-top:20px;}
+ 
+ #title-team {font-family: Graduate-Regular;
+color:black;
+text-align:center;
+ font-size:75px;}
+ 
+ 
+.foto-team{max-width:100%;
+height:auto;}
