@@ -62,7 +62,7 @@ src: url('font/Raleway-Light.ttf') format('truetype');}
 
         .navbar-toggler-icon {
           background-image: url('https://mdbootstrap.com/img/svg/hamburger9.svg?color=FF2C00');
-          filter: blur(50px); /*hamburger*/
+          filter: blur(20px); /*hamburger*/
         }
 
 
