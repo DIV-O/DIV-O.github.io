@@ -61,7 +61,8 @@ src: url('font/Raleway-Light.ttf') format('truetype');}
           }
 
         .navbar-toggler-icon {
-          background-image: url('https://mdbootstrap.com/img/svg/hamburger9.svg?color=FF2C00'); /*hamburger*/
+          background-image: url('https://mdbootstrap.com/img/svg/hamburger9.svg?color=FF2C00');
+          filter: blur(20px); /*hamburger*/
         }
 
 
@@ -231,6 +232,7 @@ src: url('font/Raleway-Light.ttf') format('truetype');}
     margin-left: 4%;
     margin-right: 4%;
     padding-bottom: 4%;
+    filter: grayscale(100%);
 
 }
 
