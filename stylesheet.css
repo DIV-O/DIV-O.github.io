@@ -224,7 +224,7 @@ src: url('font/Raleway-Light.ttf') format('truetype');}
 	padding-bottom: 20px;
 	font-size: 50px;
 	font-family: Humanistic;
-}
+  color: #e1d669 !important; }
 
 
 .homepage {
