@@ -596,3 +596,29 @@ height:auto;}
 
 .freccia-container{ text-align:center;
 }
+
+
+/*KNOWLEDGE GRAPH*/
+.container-knowledgegraph{
+  margin-left:100px;
+	margin-right: 100px;
+	padding-bottom:50px;
+	padding-top:50px;
+}
+
+#title-knowledgegraph{
+  font-family: Graduate-Regular;
+  text-transform: uppercase;
+  color:black;
+  text-align:center;
+  font-size:75px;}
+}
+
+.description-knowledgegraph{
+  margin-left:40px;
+  margin-right:4px;
+  margin-top:20px;
+}
+
+.description-knowledgegraph  p {
+  font-family:Raleway-Light;}
