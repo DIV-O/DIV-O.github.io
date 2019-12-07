@@ -442,14 +442,13 @@ width:100%;
 
 
 
-		.timeline-button-ed{color: black; 
+		.timeline-button-ed{
 		font-family:Raleway-Bold;
 		font-size:16px;
 		
 		
 		}
 		
-		.timeline-button-ed:hover{ color:#7A1E07;}
 
           #timeline-wrap{
             margin-top:5%;
@@ -492,7 +491,7 @@ width:100%;
           }
 
           .m5{
-              left: 98%;
+              left: 96%;
             }
 
 
