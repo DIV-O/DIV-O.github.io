@@ -427,7 +427,7 @@ width:100%;
 }
 
 .btn{
-  font-size: 1.5rem;
+  font-size: 1.5rem !important;
   color: #e1d669 !important;
 }
 
@@ -436,7 +436,7 @@ width:100%;
   margin-top:20px;
 }
 
-.modal-dialogue {
+.modal-dialog {
   position: static;
 }
 
