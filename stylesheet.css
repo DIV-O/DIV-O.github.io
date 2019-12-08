@@ -442,7 +442,14 @@ width:100%;
 }
 
 
-/*------------link------------------------*/
+.titolo-edition {
+  font-family:Graduate-Regular;
+  font-size: 65px;
+  margin-top:50px;
+  text-align:center;
+  padding-bottom:10px;
+  color:#e1d669;
+}
 
 
 
@@ -460,8 +467,9 @@ width:100%;
 
 		.timeline-button-ed{
 		font-family: BebasNeue-Regular;
-		font-size:16px;
+		font-size:18px;
 		color:black;
+    letter-spacing: 1.5px;
 			}
 	
 .timeline-button-ed:hover {color: #C93A16;
@@ -484,6 +492,7 @@ width:100%;
             width: 100%;
             background-color: black;
             position: absolute;
+            
 			
           }
 
@@ -498,7 +507,7 @@ width:100%;
 			
           }
 
-        .mfirst {left: -7%; }
+        .mfirst {left: -10%; }
 
           .m2{
                 left:18.5%
@@ -513,7 +522,7 @@ width:100%;
           }
 
           .m5{
-              left: 97%;
+              left: 95%;
 			
             }
 
@@ -550,7 +559,7 @@ font-size:15px;}
   top: 20px;
   left: 30%;
   margin-left: -3px;
-  height:150%;
+  height:160%;
 }
 
 /* Container around content */
