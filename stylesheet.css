@@ -437,7 +437,7 @@ width:100%;
 }
 
 .modal-dialog {
-  position: static;
+  position: static !important;
 }
 
 
