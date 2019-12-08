@@ -292,7 +292,8 @@ src: url('font/Raleway-Light.ttf') format('truetype');}
 	padding: 7%;
 }*/
 
-.canto{padding-left:10%;}
+.canto{padding-left:10%;
+padding bottom: 100px;}
 
 /*------------CARDS-QUERIES------------------------*/
 
