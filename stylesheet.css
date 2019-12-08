@@ -545,11 +545,12 @@ width:100%;
 font-size:15px;}
 .row{margin-top:7%;}
 
-.intro-edition{font-family: BebasNeue-Regular;
-margin-top:10px;
+.intro-edition2{font-family: Raleway-Light;
+margin-top:8px;
 text-align:center;
-font-weight: 300;
-font-size:20px;
+font-size:18px;
+font-style: oblique;
+
 }
 
 .fixed{font-family: BebasNeue-Regular;
