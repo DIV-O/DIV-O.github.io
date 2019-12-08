@@ -416,11 +416,15 @@ width:100%;
 
 
 .popover {
-  margin-left: 80px;
+  margin-left: 80px !important;
 
 }
 
+.popover-header {
+   background-color:#e1d669 !important;
+   color: white;
 
+}
 
 
 .timeline-edizione{
@@ -448,10 +452,13 @@ width:100%;
 		.timeline-button-ed{
 		font-family:Raleway-Bold;
 		font-size:16px;
-		
-		
-		}
-		
+		color:black;
+			}
+	
+.timeline-button-ed:hover {color: #C93A16;
+
+}	
+
 
           #timeline-wrap{
             margin-top:5%;
@@ -459,6 +466,7 @@ width:100%;
             margin-left: 15%;
             margin-right: 15%;
             position:relative;
+			
           }
 
 
@@ -467,6 +475,7 @@ width:100%;
             width: 100%;
             background-color: black;
             position: absolute;
+			
           }
 
          
@@ -477,9 +486,10 @@ width:100%;
             font-size: 12pt;
             text-align: center;
             position: absolute;
+			
           }
 
-        .mfirst {left: -12%; }
+        .mfirst {left: -10%; }
 
           .m2{
                 left:18.5%
@@ -495,6 +505,7 @@ width:100%;
 
           .m5{
               left: 96%;
+			
             }
 
 
@@ -504,7 +515,8 @@ width:100%;
  
 /*------------PER VISUALIZZAZIONE EDIZIONI------------------------*/
 
-.row p{font-family:Raleway-Light;}
+.row p{font-family:Raleway-Light;
+font-size:15px;}
 .row{margin-top:7%;}
 
 
@@ -538,7 +550,10 @@ width:100%;
   position: relative;
   background-color: inherit;
   width: 50%;
+  
 }
+
+
 
 /* The circles on the timeline */
 .container::after {
@@ -563,6 +578,7 @@ width:100%;
 .right {
   left: 29.5%;
   margin-top: 50px;
+  
 }
 
 
@@ -604,9 +620,12 @@ padding-bottom:30px;}
  margin-right:70px;
  text-align:justify;
  margin-bottom:80px;}
+
 <<<<<<< HEAD
  .container-documentation li{font-family:Raleway-Light;}
+
 =======
+>>>>>>> 98a4985cc98e488de9d0b8a06700240f915d1ade
  .container-documentation li{font-family:Raleway-Light;}
  
  /* TEAM */
@@ -661,4 +680,8 @@ height:auto;}
 
 .description-knowledgegraph  p {
   font-family:Raleway-Light;}
->>>>>>> 51a0375e25307c737c9a488d9692d220e58b79a2
+
+<<<<<<< HEAD
+=======
+
+>>>>>>> 98a4985cc98e488de9d0b8a06700240f915d1ade
