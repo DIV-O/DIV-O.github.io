@@ -318,7 +318,8 @@ color:#e1d669;}
 .query-title{font-weight: 600;}
 
 .modal-title{font-family:Questrial-Regular;
-font-weight:bold;}
+font-weight:bold;
+font-size:17px;}
 
 
 
@@ -344,7 +345,15 @@ margin-left:40px;}
 width:80%;
 margin-bottom:10px;
 background-color:#EFEAAC;
+border:none;
+
+
    }
+   
+.btn-light:hover{background-color:white;
+
+   }
+   
    
 .col-sm-4{
 	display: flex;
@@ -537,6 +546,16 @@ width:100%;
 font-size:15px;}
 .row{margin-top:7%;}
 
+.intro-edition{font-family: BebasNeue-Regular;
+margin-top:10px;
+text-align:center;
+font-weight: 300;
+font-size:20px;
+}
+
+.fixed{font-family: BebasNeue-Regular;
+font-size:18px;
+color:black;}
 
 /*------------time line verticale------------------------*/
 
@@ -639,15 +658,10 @@ padding-bottom:30px;}
  text-align:justify;
  margin-bottom:80px;}
 
-<<<<<<< HEAD
-<<<<<<< HEAD
+
  .container-documentation li{font-family:Raleway-Light;}
 
-=======
->>>>>>> 98a4985cc98e488de9d0b8a06700240f915d1ade
-=======
->>>>>>> 98a4985cc98e488de9d0b8a06700240f915d1ade
- .container-documentation li{font-family:Raleway-Light;}
+
  
  /* TEAM */
  .team-container{text-align:center;
@@ -765,11 +779,3 @@ height:auto;}
 .description-knowledgegraph  p {
   font-family:Raleway-Light;}
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> 98a4985cc98e488de9d0b8a06700240f915d1ade
-=======
-
->>>>>>> 98a4985cc98e488de9d0b8a06700240f915d1ade
