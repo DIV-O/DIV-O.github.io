@@ -426,11 +426,19 @@ width:100%;
 
 }
 
+.btn{
+  font-size: 1.5rem;
+  color: #e1d669 !important;
+}
+
 
 .timeline-edizione{
   margin-top:20px;
 }
 
+.modal-dialogue {
+  position: static;
+}
 
 
 /*------------link------------------------*/x
