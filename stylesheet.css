@@ -553,6 +553,17 @@ font-style: oblique;
 
 }
 
+.intro-edition3{font-family: Raleway-Light;
+margin-top:8px;
+text-align:center;
+font-size:16px;
+font-style: oblique;
+padding-left:150px;
+padding-right:150px;
+margin-left:100px;
+margin-right:100px;
+}
+
 .fixed{font-family: BebasNeue-Regular;
 font-size:18px;
 color:black;}
