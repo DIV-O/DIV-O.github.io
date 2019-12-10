@@ -559,9 +559,9 @@ text-align:center;
 font-size:16px;
 font-style: oblique;
 padding-left:150px;
-padding-right:140px;
+padding-right:150px;
 margin-left:100px;
-margin-right:90px;
+margin-right:100px;
 }
 
 .fixed{font-family: BebasNeue-Regular;
@@ -762,6 +762,9 @@ height:auto;}
 }
 
 
+.container-general {
+  background-image: url("images/noisy.png");
+}
 
 
 
