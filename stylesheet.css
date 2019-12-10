@@ -343,7 +343,7 @@ margin-top:20px;
 text-align:justify;
 font-size:18px;
 margin-left:120px;
- margin-right:120px;}
+ margin-right:10px;}
 
 
 .btn-light{position:absolute;
@@ -794,7 +794,8 @@ height:auto;}
   text-transform: uppercase;
   color:black;
   text-align:center;
-  font-size:75px;}
+  font-size:75px;
+  margin-bottom:30px;}
 }
 
 .description-knowledgegraph{
