@@ -684,7 +684,11 @@ padding-bottom:30px;}
 	}
  
  .container-documentation p{font-family:Raleway-Light;
- font-size:20px;}
+ font-size:16px;}
+ 
+  .container-documentation li{font-family:Raleway-Light;
+  font-size:16px;}
+
  .container-documentation{margin-left:100px;
  margin-right:100px;
  text-align:justify;
