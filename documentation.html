@@ -81,7 +81,7 @@
 
 <p>The aim of the project is to extract knowledge from Divina Commedia of Dante. In particular we have chosen to examine Inferno, Canto V and to convert knowledge into a Link Open Data enviroment. DIVO (Dante Inferno V Ontology) is a specific ontology for the analysis of the Divina Commedia. it is populated with the data of Canto V, but it can be used to analyze all the other Canti.
 We chose this particular Canto because it is rich in characters and places that can be well connected to other information and literary works, in order to give an idea of the immensity of the world around Divina Commedia.
-For the collection of data we have based ourselves on the following editions:
+For the collection of data we have based our research on the following editions:
 </p>
 <ul>
 <li><i>Dante Alighieri, La Divina Commedia. Inferno a cura di Anna Maria Chiavacci Leonardi, Mondadori, Milano 2005.</i></li>
@@ -91,25 +91,32 @@ For the collection of data we have based ourselves on the following editions:
 <li><i>Dante Alighieri, La Divina Commedia. Inferno a cura di Natalino Sapegno, Rcs scuola, Milano, 2001.</i></li>
 </ul>
 
-<h1 class="subtitle-documentation">Sviluppo ontologia:</h1>
-<p>Per la costruzione della nostra ontologia siamo partiti dalla struttura stessa della Divina Commedia, suddivivendola in cantiche, canti e versi. Successivamente l'abbiamo arricchita di classi relative a tutto l'Universo di luoghi e personaggi che ruota attorno al poema dantesco. Così troveremo la Classe Agent e le relative sottoclassi per definire i personaggi gravitanti attorno ai canti, così come la classe Place per classificare i luoghi. Oltre a questo tipo di analisi, abbiamo preso in considerazione i commenti di quattro Dantisti, dunque abbiamo ritenuto opportuno l'inserimento nell' ontologia classi che si riferiscono a questo aspetto e a tutte le informazioni che ne derivano, per poterle connettere al testo. La nostra ontologia si divide dunque in tre "macro" classi, Agent, LiteraryElement e Place.</p>
+<h1 class="subtitle-documentation">Development of the ontology</h1>
+<p>For the creation of our ontology we started from the structure of the Divina Commedia. We have therefore created the classes: <span style="font-weight:bold; color: #e1d669;">Cantica</span>,<span style="font-weight:bold; color: #e1d669;"> Canto</span>,<span style="font-weight:bold; color: #e1d669;"> Line</span> in order to represent the structure of the text. Subsequently, we enriched it with classes covering places and characters related to the entire Divina Commedia’s universe.
+So we will find the <span style="font-weight:bold; color: #e1d669;">Agent</span>Class and its subclasses to define the characters gravitating around the Canto, as well as the <span style="font-weight:bold; color: #e1d669;">Place </span> class to classify places. In addition to this type of analysis, we have taken into consideration the comments of four Dantists. Therefore we have included in the ontology some classes that refer to this aspect and all the information that comes from it, to be able to connect them to the text. In addition, we have created a class that hosts all the literary works, their authors and specific quotations to which Dante refers in Canto V. Our ontology is thus divided into three "macro" classes, <span style="font-weight:bold; color: #e1d669;">Agent</span>, <span style="font-weight:bold; color: #e1d669;"> LiteraryElement</span> and <span style="font-weight:bold; color: #e1d669;">Place.</span>
+In this way it will be possibile to re-use our ontology by starting from a single Canto, no matter of the choosen Cantica.
+</p>
 
-<h1 class="subtitle-documentation">Scelte tecniche: </h1>
-<p>Durante lo sviluppo dell’ontologia, in particolare nella fase della creazione degli “individuals”, ci siamo imbattute in una serie di problemi di categorizzazione, ad esempio:</p>
+<div style="padding:5%; background-color:white;  margin:5%;">
+<img src="images/ontology-graph.jpg" style="width:100%; margin-top:30px;"></img>
+</div>
+
+<h1 class="subtitle-documentation">Scelte tecniche</h1>
+<p>During the development of ontology, specifically in the phase of creating "individuals", we came across a number of issues of categorization, for example:</p>
 <ul>
-<li>Dante è allo stesso tempo autore della Divina commedia e protagonista dell’opera. Il protagonista dell’opera è consapevole di esserne l’autore, come si legge dalla seguente terzina:
+<li>Dante is both the author of the Divina Commedia and the protagonist of the work. The character of Dante is aware that he is the author, as can be read from the following lines:
 <blockquote>
 <q>O muse, o alto ingegno, or m’aiutate;<br>
 o mente che scrivesti ciò ch’io vidi,<br>
 qui si parrà la tua nobilitate.</q>
-</blockquote>
 <p>(Inf II 7-9)</p>
-<p>In questo caso abbiamo deciso di inserire Dante nella categoria generale “Agent” per non assegnargli una categoria specifica che lo limitasse a quell’unica categoria.</p></li>
+</blockquote>
 
-<li>Per la figura di Dio ci siamo chieste se dovesse essere considerato un personaggio di invenzione o realmente esistito. La scelta della categoria dipende dall’interpretazioni che ciascuna persona da a Dio. 
-Per rispettare le differenti posizioni che possono esistere, abbiamo preferito inserire Dio sotto la categoria generale “Agent”, insieme a Dante.</li>
-<li>Altri due problemi che abbiamo affrontato sono stati quelli della rappresentazione di ciascun personaggio che Dante da attraverso la scrittura, e la differenziazione tra personaggio e anima. Infatti, Dante nel suo viaggio incontra diverse anime che corrispondono alle anime di personaggi in alcuni casi realmente esistiti ed in altri di fantasia. I personaggi di cui Dante scrive sono la rappresentazione che lui ne da attraverso la scrittura e che sono ispirati a personaggi reali/ di fantasia, ma tuttavia non identificabili con il personaggio stesso. Per esempio: Dante incontra l’anima di Achille che si trova tra le anime dei lussuriosi. L’Achille Dantesco ovviamente non è lo stesso descritto da Omero. 
-Dante incontra anche le anime di personaggi realmente esistiti, ad esempio quella di Francesca e di Paolo. In questi casi vi sono due livelli di differenziazione: in primo luogo Dante incontra l’anima del personaggio e non la persona fisica realmente esistita, inoltre Dante rappresenta il personaggio in maniera del tutto soggettiva. </li>
+<p>In this case we decided to include Dante in the general category <span style="font-weight:bold; color: #e1d669;">Agent</span> so as not to assign him a specific category that would limit him to that single one.</p></li>
+
+<li>As regard God we wondered if he/she should be considered a fictional character or a real one. The choice of category depends on the interpretations that each person gives to God.  
+To respect the different positions that may exist, we have preferred to place God under the general category "Agent", together with Dante.<p></p></li>
+<li>Two other problems that we have faced are the representation of each character that Dante gives through writing, and the differentiation between character and soul. In fact, in his journey Dante meets different souls that correspond to the souls of characters, in some cases really existed and in others of fantasy. Dante's characters are the representation that he gives through writing and that are inspired by real/fictional characters, but not identifiable with the characters themselves. For example: Dante meets the soul of Achille that is among the souls of the "Lussuriosi". The Dantesque Achille is obviously not the same as described by Homer. Dante also meets the souls of really existed characters, for example that of Francesca and Paolo. In these cases there are two levels of differentiation: first, Dante meets the soul of the characters and not the physical people who really existed, and also Dante represents the characters in a completely subjective way.</li>
 </ul>
 </div>
 
