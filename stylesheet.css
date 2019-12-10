@@ -683,9 +683,10 @@ padding-bottom:30px;}
 	font-weight:600;
 	}
  
- .container-documentation p{font-family:Raleway-Light;}
- .container-documentation{margin-left:70px;
- margin-right:70px;
+ .container-documentation p{font-family:Raleway-Light;
+ font-size:20px;}
+ .container-documentation{margin-left:100px;
+ margin-right:100px;
  text-align:justify;
  margin-bottom:80px;}
 
