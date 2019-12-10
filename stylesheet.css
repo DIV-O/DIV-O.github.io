@@ -471,7 +471,7 @@ width:100%;
 /*------------TIME LINE EDITION- orizzontale-----------------------*/
 
 
-
+	.corpo{margin-top:25px !important;}
 
 		.timeline-button-ed{
 		font-family: BebasNeue-Regular;
@@ -486,7 +486,7 @@ width:100%;
 
 
           #timeline-wrap{
-            margin-top:5%;
+            margin-top:1%;
             margin-bottom:8%;
             margin-left: 15%;
             margin-right: 15%;
@@ -546,22 +546,32 @@ font-size:15px;}
 .row{margin-top:7%;}
 
 .intro-edition2{font-family: Raleway-Light;
-margin-top:8px;
-text-align:center;
-font-size:18px;
-font-style: oblique;
-
+margin-top:20px;
+text-align:justify;
+font-size:15px;
+margin-left:190px;
+ margin-right:190px;
 }
 
-.intro-edition3{font-family: Raleway-Light;
-margin-top:8px;
+
+.intro-edition4{font-family: Raleway-Light;
+margin-top:50px;
 text-align:center;
-font-size:16px;
+font-style:oblique;
+font-weight:bold;
+font-size:15px;
+}
+.intro-edition3{font-family: Raleway-Light;
+margin-top:30px;
+text-align:center;
+font-size:15px;
 font-style: oblique;
 padding-left:150px;
 padding-right:60px;
 margin-left:100px;
 margin-right:100px;
+font-weight:bold;
+
 }
 
 .fixed{font-family: BebasNeue-Regular;
