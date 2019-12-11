@@ -26,7 +26,6 @@ src: url('font/humanistic.cursive.ttf') format('truetype');}
 { font-family: Raleway-Bold;
 src: url('font/Raleway-Bold.ttf') format('truetype');}
 
-
  
  @font-face
 { font-family: BebasNeue-Regular;
@@ -238,6 +237,7 @@ src: url('font/Raleway-Light.ttf') format('truetype');}
 #divo {font-size: 150px;
   font-family:Graduate-Regular;
   color:#e1d669;
+  margin-right: 30px;
   
 }
 
